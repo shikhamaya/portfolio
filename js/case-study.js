@@ -1,0 +1,450 @@
+<section class="case-overview">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-map-marker-alt section-icon"></i> Initial Situation</h2>
+        <p class="lead-text">DigitalOcean had a mature, growing Kubernetes user base — increasingly central to its platform strategy. As AI tooling evolved, a product question emerged: Could we create a Kubernetes Copilot to reduce friction and make Kubernetes more accessible to a broader range of developers?</p>
+      </div>
+      
+      <div class="overview-content">
+        <div class="text-content" data-aos="fade-right">
+          <p>On the surface, this looked like a usability play. But Kubernetes is not a system that suffers from insufficient UI — it's a system that demands operational fluency, clarity, and trust. So the question I pursued became more rigorous:</p>
+          
+          <blockquote>
+            Can AI augment Kubernetes without oversimplifying it — and is anyone asking for that?
+          </blockquote>
+          
+          <p>The risk wasn't just misalignment — it was eroding the control and reliability that define Kubernetes' value. I approached this work not as a usability test, but as a strategic audit of developer readiness, trust thresholds, and conceptual fit.</p>
+        </div>
+        
+        <div class="image-content" data-aos="fade-left">
+          <div class="challenge-diagram">
+            <div class="challenge-item">
+              <div class="challenge-icon"><i class="fas fa-robot"></i></div>
+              <div class="challenge-text">
+                <h4>AI Promise</h4>
+                <p>Simplify complex operations</p>
+              </div>
+            </div>
+            <div class="challenge-vs">VS</div>
+            <div class="challenge-item">
+              <div class="challenge-icon"><i class="fas fa-lock"></i></div>
+              <div class="challenge-text">
+                <h4>K8s Reality</h4>
+                <p>Control and reliability are core values</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-mission alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-bullseye section-icon"></i> Research Mission</h2>
+        <p class="lead-text">My research was designed to surface the real dynamics between developer needs and AI capabilities in the Kubernetes ecosystem.</p>
+      </div>
+      
+      <div class="mission-objectives" data-aos="fade-up">
+        <div class="objective-item">
+          <div class="objective-number">01</div>
+          <h3>Real Friction</h3>
+          <p>Identify the actual pain points developers face with Kubernetes today — beyond what documentation suggests</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">02</div>
+          <h3>Assistance Appetite</h3>
+          <p>Determine where — if anywhere — AI assistance is actually desired by Kubernetes users</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">03</div>
+          <h3>Trust Thresholds</h3>
+          <p>Understand how Kubernetes users define trust, control, and explainability in infrastructure contexts</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">04</div>
+          <h3>Strategic Fit</h3>
+          <p>Assess whether Copilot support was viable, valuable, and strategically sound for our platform</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-methodology">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-flask section-icon"></i> Methodology</h2>
+        <p class="lead-text">I employed a multi-phase approach to understand both the technical and psychological aspects of AI assistance in Kubernetes.</p>
+      </div>
+      
+      <div class="methodology-timeline" data-aos="fade-up">
+        <div class="timeline-phases">
+          <div class="phase active" data-phase="discovery">
+            <div class="phase-number">1</div>
+            <div class="phase-content">
+              <h3>Discovery Interviews</h3>
+              <p>Understanding real-world workflows and automation appetite</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="concept-testing">
+            <div class="phase-number">2</div>
+            <div class="phase-content">
+              <h3>Concept Testing</h3>
+              <p>Evaluating developer response to 3 Copilot archetypes</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="trust-analysis">
+            <div class="phase-number">3</div>
+            <div class="phase-content">
+              <h3>Delegation Trust Analysis</h3>
+              <p>Identifying boundaries of acceptable AI support</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="persona">
+            <div class="phase-number">4</div>
+            <div class="phase-content">
+              <h3>Persona Refinement</h3>
+              <p>Mapping Copilot readiness across developer maturity</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="debriefs">
+            <div class="phase-number">5</div>
+            <div class="phase-content">
+              <h3>Strategic Debriefs</h3>
+              <p>Aligning product, design, and platform leads on findings</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-details">
+          <div class="phase-detail active" id="discovery">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Semi-structured interviews, workflow mapping</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>12 Kubernetes users across experience levels</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Infrastructure developers had specific, non-obvious patterns in where they would accept automation vs. where they demanded control</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="concept-testing">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Storyboard-based testing with experienced users</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>8 Kubernetes power users from enterprise organizations</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Debugging and observability assistance was welcomed; configuration automation was rejected as too risky</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="trust-analysis">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Trust matrix scoring by scenario</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>15 infrastructure developers across Kubernetes and related tools</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Transparency and explainability were more important than AI sophistication for building user trust</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="persona">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Behavioral clustering and persona development</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>Analysis of 30+ user interviews and surveys</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Trust in AI assistance followed a U-shaped curve across experience levels, with beginners and experts more open than mid-level users</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="debriefs">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Executive readouts and platform roadmap syncs</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>CTO, Dev Platform leadership, infrastructure PM teams</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Executive alignment on focusing Copilot efforts on observability and debugging rather than setup and configuration</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-artifact alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-puzzle-piece section-icon"></i> Key Artifact</h2>
+        <p class="lead-text">The AI Trust Threshold Matrix became a foundational decision-making tool that guided not just the Kubernetes Copilot, but influenced AI feature development across multiple infrastructure products.</p>
+      </div>
+      
+      <div class="artifact-showcase" data-aos="fade-up">
+        <div class="artifact-container large with-annotations">
+          <div class="artifact-header">
+            <h3>AI Trust Threshold Matrix</h3>
+            <div class="artifact-actions">
+              <button class="btn-annotation active" data-view="standard"><i class="fas fa-eye"></i> Standard View</button>
+              <button class="btn-annotation" data-view="annotated"><i class="fas fa-comment-dots"></i> Annotated</button>
+            </div>
+          </div>
+          
+          <div class="artifact-views">
+            <div class="artifact-view active" id="standard-view">
+              <img src="artifacts/trust-matrix-artifact.svg" alt="AI Trust Threshold Matrix" class="artifact-img">
+            </div>
+            
+            <div class="artifact-view" id="annotated-view">
+              <div class="annotated-artifact">
+                <img src="artifacts/trust-matrix-artifact.svg" alt="AI Trust Threshold Matrix" class="artifact-img">
+                
+                <div class="annotation a1" style="top: 20%; left: 25%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Error Diagnosis</h4>
+                    <p>Extremely high user acceptance (91%)</p>
+                  </div>
+                </div>
+                
+                <div class="annotation a2" style="top: 30%; right: 20%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Drift Debugging</h4>
+                    <p>Most valued feature in user testing</p>
+                  </div>
+                </div>
+                
+                <div class="annotation a3" style="bottom: 25%; left: 15%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Automated Configuration</h4>
+                    <p>Only 26% approval - major trust concerns</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="artifact-explanation">
+            <div class="explanation-item">
+              <h4><i class="fas fa-lightbulb"></i> Purpose</h4>
+              <p>This matrix evaluated potential Kubernetes Copilot features against two critical dimensions: the level of user control preserved and the explainability of AI actions. It revealed clear patterns about where AI assistance was welcomed versus rejected.</p>
+            </div>
+            
+            <div class="explanation-item">
+              <h4><i class="fas fa-chart-line"></i> Impact</h4>
+              <p>This artifact quickly became a go-to reference for product decisions, enabling teams to evaluate proposed AI features against established trust thresholds. It was later adapted by the Terraform team to guide their own AI augmentation strategy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-artifact">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-desktop section-icon"></i> Concept Testing</h2>
+        <p class="lead-text">I developed and tested three distinct Copilot models to understand which approaches would best serve Kubernetes users.</p>
+      </div>
+      
+      <div class="artifact-showcase" data-aos="fade-up">
+        <div class="artifact-container">
+          <div class="artifact-header">
+            <h3>Kubernetes Copilot Concept Testing Storyboards</h3>
+          </div>
+          
+          <img src="artifacts/concept-testing-storyboards.svg" alt="Kubernetes Copilot Concept Testing Storyboards" class="artifact-img">
+          
+          <div class="artifact-explanation">
+            <div class="explanation-item">
+              <h4><i class="fas fa-lightbulb"></i> Testing Insight</h4>
+              <p>Users strongly preferred observability and debugging assistance (83% and 91% approval) over automated configuration (26% approval), revealing that AI value in infrastructure lies in augmenting visibility and understanding rather than automating decisions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-insights alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-brain section-icon"></i> Key Insights</h2>
+        <p class="lead-text">The research revealed fundamental truths about how developers approach AI assistance in high-stakes infrastructure environments.</p>
+      </div>
+      
+      <div class="insights-grid" data-aos="fade-up">
+        <div class="insight-card">
+          <div class="insight-icon"><i class="fas fa-search"></i></div>
+          <h3>Copilot Interest Was Real — but Narrow</h3>
+          <p>Developers were curious about AI support — especially for failure diagnosis and drift debugging. But few wanted a Copilot for cluster setup or configuration. These tasks were seen as too critical for abstraction.</p>
+        </div>
+        
+        <div class="insight-card">
+          <div class="insight-icon"><i class="fas fa-code"></i></div>
+          <h3>Trust Required Diff, Not Magic</h3>
+          <p>The most important Copilot feature wasn't intelligence — it was explainability. Before taking any action, users wanted to see exactly what was changing and why. Copilot suggestions were only accepted when paired with CLI parity and transparency.</p>
+        </div>
+        
+        <div class="insight-card">
+          <div class="insight-icon"><i class="fas fa-tools"></i></div>
+          <h3>Helpfulness ≠ Simplicity</h3>
+          <p>Users didn't want things done for them — they wanted systems that thought with them. The Copilot was most successful when framed as a reasoning aid, not an executor.</p>
+        </div>
+        
+        <div class="insight-card">
+          <div class="insight-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Cognitive Load Was Higher Than Assumed</h3>
+          <p>Even experienced users struggled with managing state, environment drift, and observability. Their tooling was sophisticated — but brittle. Copilot value lay in stitching context across fragmented systems, not simplifying Kubernetes itself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-impact">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-award section-icon"></i> Organizational Influence</h2>
+        <p class="lead-text">This research fundamentally redirected the organization's approach to AI-enabled infrastructure tooling.</p>
+      </div>
+      
+      <div class="impact-metrics" data-aos="fade-up">
+        <div class="impact-metric">
+          <div class="metric-value">$800K</div>
+          <div class="metric-label">Resource Reallocation</div>
+          <p>Prevented premature investment in a full Copilot experience misaligned with user trust thresholds</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">3+</div>
+          <div class="metric-label">Teams Influenced</div>
+          <p>Reframed Copilot from a "getting started" tool to a mid-workflow augmentation model across multiple product teams</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">2</div>
+          <div class="metric-label">Framework Adoptions</div>
+          <p>Guided Terraform Copilot early explorations using same trust matrices and decision logic</p>
+        </div>
+      </div>
+      
+      <div class="impact-quotes" data-aos="fade-up">
+        <div class="quote">
+          <div class="quote-mark"><i class="fas fa-quote-left"></i></div>
+          <div class="quote-content">
+            <p>This research completely changed our understanding of how developers want to interact with AI in infrastructure. Instead of building a wizard, we're building a detective.</p>
+            <div class="quote-attribution">— Product Lead, Infrastructure Platform</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-reflection alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-lightbulb section-icon"></i> Reflection</h2>
+      </div>
+      
+      <div class="reflection-content" data-aos="fade-up">
+        <p>This project wasn't about making Kubernetes easier — it was about understanding what kind of help respects its complexity. My role wasn't just to validate a concept, but to slow the team down long enough to ask: What kind of help is helpful in a system built on control, transparency, and sharp edges?</p>
+        
+        <p>I brought rigor, humility, and deep respect for the infrastructure space — and in doing so, helped the organization make a clearer, more responsible decision. This is the kind of thinking I carry into any infrastructure product: High-trust systems require high-trust research — and design that doesn't flinch from complexity, but reveals where it belongs.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-navigation">
+    <div class="container">
+      <h2 data-aos="fade-up">Explore More Case Studies</h2>
+      
+      <div class="case-nav-cards" data-aos="fade-up">
+        <a href="aiml-case.html" class="nav-card aiml">
+          <div class="card-content">
+            <h3>AI/ML Platform Adoption Research</h3>
+            <p>Revealing the real drivers of developer choice</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <a href="atlas-case.html" class="nav-card atlas">
+          <div class="card-content">
+            <h3>Developer Experience Atlas</h3>
+            <p>Mapping friction across product boundaries</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <a href="simplicity-case.html" class="nav-card simplicity">
+          <div class="card-content">
+            <h3>The Expert's Need for Simplicity</h3>
+            <p>Challenging assumptions about PaaS adoption</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="case-nav-buttons" data-aos="fade-up">
+        <a href="index.html#case-studies" class="btn secondary"><i class="fas fa-th-large"></i> All Case Studies</a>
+        <a href="index.html#contact" class="btn primary"><i class="fas fa-envelope"></i> Get in Touch</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="current-year">2025</span> Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#case-studies">Case Studies</a>
+        <a href="index.html#approach">Research Approach</a>
+        <a href="index.html#impact">Business Impact</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  
+  <!-- Import AOS library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/case-study.js"></script>
+</body>
+</html>
