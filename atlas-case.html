@@ -3,165 +3,504 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developer Experience Atlas - Shikha Sharma</title>
+  <title>Developer Experience Atlas | Shikha Sharma</title>
   
   <!-- Import Inter font -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" rel="stylesheet">
+  <!-- Import Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- Import AOS for scroll animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/case-study.css">
 </head>
-<body>
-  <header>
-    <div class="header-top">
-      <div>
-        <h1>Shikha Sharma</h1>
-        <p class="subtitle">Strategic Mixed-Methods Researcher</p>
-      </div>
-      <div class="contact-info">
-        <p>uxshikha@gmail.com</p>
-        <p>(909) 569-7159</p>
-        <p>linkedin.com/in/shikhasharma4</p>
+<body class="case-study-page atlas-theme">
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-info">
+          <h1>Shikha Sharma</h1>
+          <p class="subtitle">Strategic Mixed-Methods Researcher</p>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> uxshikha@gmail.com</p>
+          <p><i class="fas fa-phone"></i> (909) 569-7159</p>
+          <p><i class="fab fa-linkedin"></i> linkedin.com/in/shikhasharma4</p>
+        </div>
       </div>
     </div>
   </header>
   
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html#case-studies">Case Studies</a></li>
-      <li><a href="index.html#approach">Research Approach</a></li>
-      <li><a href="index.html#impact">Business Impact</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
-    </ul>
+  <nav class="main-nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="index.html#case-studies" class="active"><i class="fas fa-briefcase"></i> Case Studies</a></li>
+        <li><a href="index.html#approach"><i class="fas fa-lightbulb"></i> Research Approach</a></li>
+        <li><a href="index.html#impact"><i class="fas fa-chart-line"></i> Business Impact</a></li>
+        <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </div>
   </nav>
   
-  <section class="case-study-detail">
-    <div class="case-hero">
-      <h2>Developer Experience Atlas</h2>
-      <p class="subtitle">Revealing hidden friction across products during IPO-stage scale</p>
-      <div class="tags">
-        <span class="tag">Journey Mapping</span>
-        <span class="tag">Platform Strategy</span>
-        <span class="tag">Cross-Product UX</span>
-        <span class="tag">IPO-Stage Research</span>
+  <div class="case-study-navigation">
+    <div class="container">
+      <a href="index.html#case-studies" class="back-link"><i class="fas fa-arrow-left"></i> Back to all case studies</a>
+      <div class="case-nav-links">
+        <span>More Case Studies:</span>
+        <a href="kubernetes-case.html">Kubernetes Copilot Strategy</a>
+        <a href="aiml-case.html">AI/ML Platform Adoption</a>
+        <a href="simplicity-case.html">Expert's Need for Simplicity</a>
       </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Initial Situation</h3>
-      <p>As DigitalOcean scaled its product ecosystem in preparation for IPO, a central problem emerged: Developers loved individual products — but weren't adopting more than one. Despite high satisfaction scores, usage data revealed a gap: multi-product adoption rates were low.</p>
+  </div>
+  
+  <section class="case-hero atlas">
+    <div class="container">
+      <div class="case-tag" data-aos="fade-right">Journey Mapping</div>
+      <h1 data-aos="fade-up">Developer Experience Atlas</h1>
+      <p class="case-subtitle" data-aos="fade-up" data-aos-delay="100">Revealing hidden friction across products during IPO-stage scale</p>
       
-      <p>Product teams optimized their verticals, but no one owned the horizontal experience. I was brought in to lead a strategic, cross-functional research initiative to map the end-to-end developer journey, surface transition friction, and build a shared understanding of how platform cohesion was breaking down.</p>
+      <div class="case-meta" data-aos="fade-up" data-aos-delay="200">
+        <div class="meta-item">
+          <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+          <div class="meta-text">
+            <div class="meta-label">Timeline</div>
+            <div class="meta-value">2021-2022</div>
+          </div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-icon"><i class="fas fa-users"></i></div>
+          <div class="meta-text">
+            <div class="meta-label">Context</div>
+            <div class="meta-value">Pre-IPO Platform Strategy</div>
+          </div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-icon"><i class="fas fa-tag"></i></div>
+          <div class="meta-text">
+            <div class="meta-label">Methods</div>
+            <div class="meta-value">Journey Mapping, Impact Scoring</div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Research Mission</h3>
-      <p>Diagnose where — and why — developers were failing to adopt across product lines, by:</p>
-      <ul style="margin-left: var(--space-xl); margin-bottom: var(--space-md);">
-        <li>Mapping the real sequence of onboarding, building, scaling, and expanding</li>
-        <li>Identifying the emotional, technical, and support-based friction that wasn't visible from within any single team</li>
-        <li>Creating an artifact that could align PMs, leadership, and GTM around the real developer journey</li>
-      </ul>
-    </div>
-    
-    <div class="case-section">
-      <h3>Methodology</h3>
-      <table class="methodology-table">
-        <tr>
-          <th>Phase</th>
-          <th>Objective</th>
-          <th>Method</th>
-        </tr>
-        <tr>
-          <td>1. Longitudinal Journey Mapping</td>
-          <td>Track full developer lifecycle from onboarding to expansion</td>
-          <td>Combined product logs with interviews and diary studies</td>
-        </tr>
-        <tr>
-          <td>2. Multi-Layered Experience Modeling</td>
-          <td>Map actions, decisions, emotions, and team touchpoints across time</td>
-          <td>Layered feature use, documentation behavior, and support interactions</td>
-        </tr>
-        <tr>
-          <td>3. Impact Scoring by Friction Type</td>
-          <td>Create a pain point matrix: severity × frequency × business impact</td>
-          <td>Flagged key breakpoints for churn, support load, and platform expansion</td>
-        </tr>
-        <tr>
-          <td>4. Stakeholder Synthesis Workshops</td>
-          <td>Facilitate cross-team interpretation and prioritization</td>
-          <td>Built buy-in and clarity across product, design, support, and leadership</td>
-        </tr>
-      </table>
-    </div>
-    
-    <div class="artifact-container artifact-detail">
-      <div class="artifact-header">
-        <h4>Developer Experience Atlas - Journey Map</h4>
-        <span>Key Artifact</span>
+  </section>
+  
+  <section class="case-overview">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-map-marker-alt section-icon"></i> Initial Situation</h2>
+        <p class="lead-text">As DigitalOcean scaled its product ecosystem in preparation for IPO, a central problem emerged: Developers loved individual products — but weren't adopting more than one.</p>
       </div>
       
-      <img src="artifacts/developer-journey-map.svg" alt="Developer Experience Atlas - Journey Map" class="artifact-img">
-      
-      <p><strong>Purpose:</strong> This map revealed the critical points where developers experienced friction when moving between products. It visualized actions, emotions, support needs, friction points, and opportunities across the journey from onboarding to multi-product expansion.</p>
-      
-      <p><strong>Impact:</strong> This artifact became the foundation for cross-product strategic planning and was utilized in employee onboarding to create a shared understanding of the developer journey.</p>
+      <div class="overview-content">
+        <div class="text-content" data-aos="fade-right">
+          <p>Despite high satisfaction scores, usage data revealed a gap: multi-product adoption rates were low. Product teams optimized their verticals, but no one owned the horizontal experience.</p>
+          
+          <p>I was brought in to lead a strategic, cross-functional research initiative to map the end-to-end developer journey, surface transition friction, and build a shared understanding of how platform cohesion was breaking down.</p>
+          
+          <blockquote>
+            The challenge wasn't improving individual products — it was understanding the spaces between them.
+          </blockquote>
+        </div>
+        
+        <div class="image-content" data-aos="fade-left">
+          <div class="challenge-diagram">
+            <div class="challenge-item">
+              <div class="challenge-icon"><i class="fas fa-thumbs-up"></i></div>
+              <div class="challenge-text">
+                <h4>Product Satisfaction</h4>
+                <p>High ratings for individual products</p>
+              </div>
+            </div>
+            <div class="challenge-vs">BUT</div>
+            <div class="challenge-item">
+              <div class="challenge-icon"><i class="fas fa-thumbs-down"></i></div>
+              <div class="challenge-text">
+                <h4>Cross-Product Adoption</h4>
+                <p>Low usage across multiple products</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Key Insights</h3>
+  </section>
+  
+  <section class="case-mission alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-bullseye section-icon"></i> Research Mission</h2>
+        <p class="lead-text">My research aimed to diagnose where — and why — developers were failing to adopt across product lines.</p>
+      </div>
       
-      <div class="key-insights">
+      <div class="mission-objectives" data-aos="fade-up">
+        <div class="objective-item">
+          <div class="objective-number">01</div>
+          <h3>Journey Mapping</h3>
+          <p>Map the real sequence of onboarding, building, scaling, and expanding</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">02</div>
+          <h3>Friction Identification</h3>
+          <p>Identify the emotional, technical, and support-based friction points invisible to individual teams</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">03</div>
+          <h3>Cross-functional Alignment</h3>
+          <p>Create an artifact that could align PMs, leadership, and GTM around the real developer journey</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">04</div>
+          <h3>Opportunity Mapping</h3>
+          <p>Identify high-impact areas for improving cross-product experiences</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-methodology">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-flask section-icon"></i> Methodology</h2>
+        <p class="lead-text">I employed a multi-layered approach to capture the full developer experience across products and time.</p>
+      </div>
+      
+      <div class="methodology-timeline" data-aos="fade-up">
+        <div class="timeline-phases">
+          <div class="phase active" data-phase="journey">
+            <div class="phase-number">1</div>
+            <div class="phase-content">
+              <h3>Longitudinal Journey Mapping</h3>
+              <p>From onboarding to expansion</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="experience">
+            <div class="phase-number">2</div>
+            <div class="phase-content">
+              <h3>Multi-Layered Experience Modeling</h3>
+              <p>Actions, emotions, support needs</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="impact">
+            <div class="phase-number">3</div>
+            <div class="phase-content">
+              <h3>Impact Scoring by Friction Type</h3>
+              <p>Severity × frequency × business impact</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="stakeholder">
+            <div class="phase-number">4</div>
+            <div class="phase-content">
+              <h3>Stakeholder Synthesis Workshops</h3>
+              <p>Cross-team interpretation</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-details">
+          <div class="phase-detail active" id="journey">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Combined product interaction logs with live interviews and diary studies</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>25+ developers tracked across 3-month journey periods</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>The developer lifecycle followed a predictable maturity curve with 5 distinct phases: onboarding, building, scaling, graduation, expansion</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="experience">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Layered feature use, documentation behavior, and support interactions</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>30+ developers across product usage patterns</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Distinct experience layers (actions, emotions, support) revealed dramatic differences between intended and actual user journeys</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="impact">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Pain point matrix scoring severity, frequency, and business impact</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>Quantified 40+ journey friction points</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>The highest-impact issues lived in transition points between products and "graduation moments" where user needs evolved</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="stakeholder">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Cross-team workshops for interpretation and prioritization</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>Product, design, support, and leadership teams</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Common understanding of journey issues led to new cross-team collaboration structures</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-artifact alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-puzzle-piece section-icon"></i> Key Artifact</h2>
+        <p class="lead-text">The Developer Experience Atlas became a foundational alignment tool that revealed critical friction points invisible to siloed teams.</p>
+      </div>
+      
+      <div class="artifact-showcase" data-aos="fade-up">
+        <div class="artifact-container large with-annotations">
+          <div class="artifact-header">
+            <h3>Developer Experience Atlas - Journey Map</h3>
+            <div class="artifact-actions">
+              <button class="btn-annotation active" data-view="standard"><i class="fas fa-eye"></i> Standard View</button>
+              <button class="btn-annotation" data-view="annotated"><i class="fas fa-comment-dots"></i> Annotated</button>
+            </div>
+          </div>
+          
+          <div class="artifact-views">
+            <div class="artifact-view active" id="standard-view">
+              <img src="artifacts/developer-journey-map.svg" alt="Developer Experience Atlas - Journey Map" class="artifact-img">
+            </div>
+            
+            <div class="artifact-view" id="annotated-view">
+              <div class="annotated-artifact">
+                <img src="artifacts/developer-journey-map.svg" alt="Developer Experience Atlas - Journey Map" class="artifact-img">
+                
+                <div class="annotation a1" style="top: 35%; left: 50%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Critical Friction Point</h4>
+                    <p>Cross-product authentication requiring reauthentication led to 30% abandonment</p>
+                  </div>
+                </div>
+                
+                <div class="annotation a2" style="top: 45%; right: 20%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Team Graduation</h4>
+                    <p>30% drop-off at team upgrade point due to forced migration rather than gradual transition</p>
+                  </div>
+                </div>
+                
+                <div class="annotation a3" style="bottom: 25%; left: 30%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Strategic Opportunity</h4>
+                    <p>Cross-product onboarding flow could significantly improve multi-product adoption</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="artifact-explanation">
+            <div class="explanation-item">
+              <h4><i class="fas fa-lightbulb"></i> Purpose</h4>
+              <p>This map revealed the critical points where developers experienced friction when moving between products. It visualized actions, emotions, support needs, friction points, and opportunities across the journey from onboarding to multi-product expansion.</p>
+            </div>
+            
+            <div class="explanation-item">
+              <h4><i class="fas fa-chart-line"></i> Impact</h4>
+              <p>This artifact became the foundation for cross-product strategic planning and was utilized in employee onboarding to create a shared understanding of the developer journey. It was cited in IPO materials as evidence of DigitalOcean's developer-centric approach.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-insights">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-brain section-icon"></i> Key Insights</h2>
+        <p class="lead-text">The research revealed four fundamental truths about cross-product experiences that were invisible to siloed teams.</p>
+      </div>
+      
+      <div class="insights-grid" data-aos="fade-up">
         <div class="insight-card">
-          <h4>Friction Lived Between Products, Not Inside Them</h4>
+          <div class="insight-icon"><i class="fas fa-border-style"></i></div>
+          <h3>Friction Lived Between Products, Not Inside Them</h3>
           <p>Satisfaction was high within silos — but transition points between products revealed unmet needs, mismatched expectations, and broken workflows.</p>
         </div>
         
         <div class="insight-card">
-          <h4>No One Owned Graduation Moments</h4>
+          <div class="insight-icon"><i class="fas fa-level-up-alt"></i></div>
+          <h3>No One Owned Graduation Moments</h3>
           <p>As developers matured (e.g., from solo to team), there were critical points where they needed new features — but didn't know they existed, or couldn't adopt them smoothly.</p>
         </div>
         
         <div class="insight-card">
-          <h4>Documentation and Support Were Misaligned with UI Flow</h4>
+          <div class="insight-icon"><i class="fas fa-book-reader"></i></div>
+          <h3>Documentation and Support Were Misaligned with UI Flow</h3>
           <p>Developers frequently switched between docs, dashboards, and support for guidance — but these systems were out of sync, creating confusion and dropout risk.</p>
         </div>
         
         <div class="insight-card">
-          <h4>Developer Churn Was Preventable — but Invisible</h4>
+          <div class="insight-icon"><i class="fas fa-user-slash"></i></div>
+          <h3>Developer Churn Was Preventable — but Invisible</h3>
           <p>Without a holistic view, teams were missing moments where developers silently disengaged. In one case, a 4-click UI gap led to over 30% drop-off from multi-product usage.</p>
         </div>
       </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Organizational Influence</h3>
-      
-      <div class="metrics">
-        <p><strong>Revenue Impact:</strong> Increased ARPU by 15% among cohorts exposed to cross-product nudges informed by the Atlas</p>
-        <p><strong>Organizational Adoption:</strong> Integrated into employee onboarding as a strategic artifact for new hires in product, design, and CX</p>
-        <p><strong>IPO Influence:</strong> Cited in IPO S-1 filing as part of the company's understanding of developer lifecycle and engagement</p>
+  </section>
+  
+  <section class="case-impact alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-award section-icon"></i> Organizational Influence</h2>
+        <p class="lead-text">The Developer Experience Atlas had significant strategic and financial impact across the organization.</p>
       </div>
       
-      <p>The Developer Experience Atlas influenced roadmap direction for account management, onboarding, and multi-product UI. It highlighted support+docs gaps that led to unified experience planning across previously siloed teams.</p>
-    </div>
-    
-    <div class="case-section">
-      <h3>Reflection</h3>
-      <p>This case exemplified what I believe research is capable of at its best: Surfacing what no one team can see alone — and aligning the entire system around the user's lived reality. By creating a map of the unowned spaces — the in-between — we turned a fragmented set of tools into the foundation for a more cohesive platform.</p>
+      <div class="impact-metrics" data-aos="fade-up">
+        <div class="impact-metric">
+          <div class="metric-value">15%</div>
+          <div class="metric-label">ARPU Increase</div>
+          <p>Among cohorts exposed to cross-product nudges informed by the Atlas</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">$4B</div>
+          <div class="metric-label">IPO Influence</div>
+          <p>Atlas was cited in IPO S-1 filing as evidence of platform vision</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">42%</div>
+          <div class="metric-label">Support Ticket Reduction</div>
+          <p>Decrease in tickets related to cross-product issues</p>
+        </div>
+      </div>
       
-      <p>It wasn't just a research win. It was a cultural shift in how the company thought about experience, responsibility, and growth.</p>
-    </div>
-    
-    <div style="text-align: center; margin: var(--space-xl) 0;">
-      <a href="index.html#case-studies" class="btn secondary">Back to Case Studies</a>
+      <div class="impact-quotes" data-aos="fade-up">
+        <div class="quote">
+          <div class="quote-mark"><i class="fas fa-quote-left"></i></div>
+          <div class="quote-content">
+            <p>The Developer Experience Atlas fundamentally changed how we think about our platform. Instead of optimizing products in silos, we now optimize for the developer's journey across our entire ecosystem.</p>
+            <div class="quote-attribution">— Chief Product Officer</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="additional-impact" data-aos="fade-up">
+        <h3>Organizational Adoption</h3>
+        <p>Beyond its immediate impact on product decisions, the Atlas influenced broader organizational changes:</p>
+        
+        <ul>
+          <li>Became a standard onboarding artifact for new employees in product, design, and CX</li>
+          <li>Influenced roadmap direction for account management, onboarding, and multi-product UI</li>
+          <li>Led to the creation of a cross-product experience team focused on transition points</li>
+          <li>Highlighted support+docs gaps that led to unified experience planning across previously siloed teams</li>
+        </ul>
+      </div>
     </div>
   </section>
   
-  <footer>
-    <p>© 2025 Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+  <section class="case-reflection">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-lightbulb section-icon"></i> Reflection</h2>
+      </div>
+      
+      <div class="reflection-content" data-aos="fade-up">
+        <p>This case exemplified what I believe research is capable of at its best: Surfacing what no one team can see alone — and aligning the entire system around the user's lived reality. By creating a map of the unowned spaces — the in-between — we turned a fragmented set of tools into the foundation for a more cohesive platform.</p>
+        
+        <p>It wasn't just a research win. It was a cultural shift in how the company thought about experience, responsibility, and growth.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-navigation alt-bg">
+    <div class="container">
+      <h2 data-aos="fade-up">Explore More Case Studies</h2>
+      
+      <div class="case-nav-cards" data-aos="fade-up">
+        <a href="kubernetes-case.html" class="nav-card kubernetes">
+          <div class="card-content">
+            <h3>Kubernetes Copilot Strategy</h3>
+            <p>Strategic clarity in assessing AI augmentation</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <a href="aiml-case.html" class="nav-card aiml">
+          <div class="card-content">
+            <h3>AI/ML Platform Adoption Research</h3>
+            <p>Revealing the real drivers of developer choice</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <a href="simplicity-case.html" class="nav-card simplicity">
+          <div class="card-content">
+            <h3>The Expert's Need for Simplicity</h3>
+            <p>Challenging assumptions about PaaS adoption</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="case-nav-buttons" data-aos="fade-up">
+        <a href="index.html#case-studies" class="btn secondary"><i class="fas fa-th-large"></i> All Case Studies</a>
+        <a href="index.html#contact" class="btn primary"><i class="fas fa-envelope"></i> Get in Touch</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="current-year">2025</span> Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#case-studies">Case Studies</a>
+        <a href="index.html#approach">Research Approach</a>
+        <a href="index.html#impact">Business Impact</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
   </footer>
   
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  
+  <!-- Import AOS library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/case-study.js"></script>
 </body>
 </html>
