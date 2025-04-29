@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kubernetes Copilot Strategy - Shikha Sharma</title>
+  
+  <!-- Import Inter font -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <div>
+        <h1>Shikha Sharma</h1>
+        <p class="subtitle">Strategic Mixed-Methods Researcher</p>
+      </div>
+      <div class="contact-info">
+        <p>uxshikha@gmail.com</p>
+        <p>(909) 569-7159</p>
+        <p>linkedin.com/in/shikhasharma4</p>
+      </div>
+    </div>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#case-studies">Case Studies</a></li>
+      <li><a href="index.html#approach">Research Approach</a></li>
+      <li><a href="index.html#impact">Business Impact</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section class="case-study-detail">
+    <div class="case-hero">
+      <h2>Kubernetes Copilot Strategy</h2>
+      <p class="subtitle">Reframing AI augmentation for infrastructure tools</p>
+      <div class="tags">
+        <span class="tag">AI/ML</span>
+        <span class="tag">Infrastructure</span>
+        <span class="tag">Developer Experience</span>
+        <span class="tag">Strategic Research</span>
+      </div>
+    </div>
+    
+    <div class="case-section">
+      <h3>Initial Situation</h3>
+      <p>DigitalOcean had a mature, growing Kubernetes user base — increasingly central to its platform strategy. As AI tooling evolved, a product question emerged: Could we create a Kubernetes Copilot to reduce friction and make Kubernetes more accessible to a broader range of developers?</p>
+      
+      <p>On the surface, this looked like a usability play. But Kubernetes is not a system that suffers from insufficient UI — it's a system that demands operational fluency, clarity, and trust. So the question I pursued became more rigorous:</p>
+      
+      <blockquote>Can AI augment Kubernetes without oversimplifying it — and is anyone asking for that?</blockquote>
+      
+      <p>The risk wasn't just misalignment — it was eroding the control and reliability that define Kubernetes' value. I approached this work not as a usability test, but as a strategic audit of developer readiness, trust thresholds, and conceptual fit.</p>
+    </div>
+    
+    <div class="case-section">
+      <h3>Research Mission</h3>
+      <p>My research was designed to surface:</p>
+      <ul style="margin-left: var(--space-xl); margin-bottom: var(--space-md);">
+        <li>The real friction developers face in Kubernetes today — beyond what documentation suggests</li>
+        <li>Where — if anywhere — AI assistance is actually desired</li>
+        <li>How Kubernetes users define trust, control, and explainability</li>
+        <li>Whether Copilot support was viable, valuable, and strategically sound for our platform</li>
+      </ul>
+    </div>
+    
+    <div class="case-section">
+      <h3>Methodology</h3>
+      <table class="methodology-table">
+        <tr>
+          <th>Phase</th>
+          <th>Objective</th>
+          <th>Method</th>
+        </tr>
+        <tr>
+          <td>1. Discovery Interviews</td>
+          <td>Understand real-world workflows, pain points, and automation appetite</td>
+          <td>Semi-structured interviews, workflow mapping</td>
+        </tr>
+        <tr>
+          <td>2. Concept Testing</td>
+          <td>Evaluate developer response to 3 Copilot archetypes</td>
+          <td>Storyboard-based testing with experienced users</td>
+        </tr>
+        <tr>
+          <td>3. Delegation Trust Analysis</td>
+          <td>Identify boundaries of acceptable AI support</td>
+          <td>Trust matrix scoring by scenario</td>
+        </tr>
+        <tr>
+          <td>4. Persona Refinement</td>
+          <td>Map Copilot readiness across developer maturity</td>
+          <td>Behavioral clustering</td>
+        </tr>
+        <tr>
+          <td>5. Strategic Debriefs</td>
+          <td>Align product, design, and platform leads on findings</td>
+          <td>Executive readouts and platform roadmap syncs</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="artifact-container artifact-detail">
+      <div class="artifact-header">
+        <h4>AI Trust Threshold Matrix</h4>
+        <span>Key Artifact</span>
+      </div>
+      
+      <img src="artifacts/trust-matrix-artifact.svg" alt="AI Trust Threshold Matrix" class="artifact-img">
+      
+      <p><strong>Purpose:</strong> This matrix evaluated potential Kubernetes Copilot features against two critical dimensions: the level of user control preserved and the explainability of AI actions. It revealed clear patterns about where AI assistance was welcomed versus rejected.</p>
+      
+      <p><strong>Impact:</strong> This artifact quickly became a go-to reference for product decisions, enabling teams to evaluate proposed AI features against established trust thresholds. It was later adapted by the Terraform team to guide their own AI augmentation strategy.</p>
+    </div>
+    
+    <div class="artifact-container artifact-detail">
+      <div class="artifact-header">
+        <h4>Concept Testing Storyboards</h4>
+        <span>User Testing Artifact</span>
+      </div>
+      
+      <img src="artifacts/concept-testing-storyboards.svg" alt="Kubernetes Copilot Concept Testing Storyboards" class="artifact-img">
+      
+      <p><strong>Purpose:</strong> These storyboards presented three distinct AI assistance models to experienced Kubernetes users. The clear approval percentages helped leadership understand where to focus development efforts.</p>
+      
+      <p><strong>Impact:</strong> Revealed that users strongly preferred tools that enhanced visibility and debugging rather than those that increased automation without transparency.</p>
+    </div>
+    
+    <div class="case-section">
+      <h3>Key Insights</h3>
+      
+      <div class="key-insights">
+        <div class="insight-card">
+          <h4>Copilot Interest Was Real — but Narrow</h4>
+          <p>Developers were curious about AI support — especially for failure diagnosis and drift debugging. But few wanted a Copilot for cluster setup or configuration. These tasks were seen as too critical for abstraction.</p>
+        </div>
+        
+        <div class="insight-card">
+          <h4>Trust Required Diff, Not Magic</h4>
+          <p>The most important Copilot feature wasn't intelligence — it was explainability. Before taking any action, users wanted to see exactly what was changing and why. Copilot suggestions were only accepted when paired with CLI parity and transparency.</p>
+        </div>
+        
+        <div class="insight-card">
+          <h4>Helpfulness ≠ Simplicity</h4>
+          <p>Users didn't want things done for them — they wanted systems that thought with them. The Copilot was most successful when framed as a reasoning aid, not an executor.</p>
+        </div>
+        
+        <div class="insight-card">
+          <h4>Cognitive Load Was Higher Than Assumed</h4>
+          <p>Even experienced users struggled with managing state, environment drift, and observability. Their tooling was sophisticated — but brittle. Copilot value lay in stitching context across fragmented systems, not simplifying Kubernetes itself.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="case-section">
+      <h3>Organizational Influence</h3>
+      <ul style="margin-left: var(--space-xl); margin-bottom: var(--space-md);">
+        <li>Prevented premature investment in a full Copilot experience misaligned with user trust thresholds</li>
+        <li>Reframed Copilot from a "getting started" tool to a mid-workflow augmentation model</li>
+        <li>Seeded reusable language about explainability, control, and trust across infrastructure product teams</li>
+        <li>Guided Terraform Copilot early explorations using same trust matrices and decision logic</li>
+      </ul>
+      
+      <div class="metrics">
+        <p><strong>Resource Impact:</strong> Redirected $800K in development resources toward high-value Copilot features</p>
+        <p><strong>Strategic Impact:</strong> Established a framework for evaluating AI features across infrastructure products</p>
+        <p><strong>Organizational Impact:</strong> Trust-based principles adopted by 3 additional product teams</p>
+      </div>
+    </div>
+    
+    <div class="case-section">
+      <h3>Reflection</h3>
+      <p>This project wasn't about making Kubernetes easier — it was about understanding what kind of help respects its complexity. My role wasn't just to validate a concept, but to slow the team down long enough to ask: What kind of help is helpful in a system built on control, transparency, and sharp edges?</p>
+      
+      <p>I brought rigor, humility, and deep respect for the infrastructure space — and in doing so, helped the organization make a clearer, more responsible decision. This is the kind of thinking I carry into any infra product: High-trust systems require high-trust research — and design that doesn't flinch from complexity, but reveals where it belongs.</p>
+    </div>
+    
+    <div style="text-align: center; margin: var(--space-xl) 0;">
+      <a href="index.html#case-studies" class="btn secondary">Back to Case Studies</a>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2025 Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
