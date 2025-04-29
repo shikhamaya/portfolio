@@ -3,223 +3,422 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shikha Sharma - Strategic Research Portfolio</title>
+  <title>Shikha Sharma | Strategic Research Portfolio</title>
   
   <!-- Import Inter font -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" rel="stylesheet">
+  <!-- Import Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- Import AOS for scroll animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <div class="header-top">
-      <div>
-        <h1>Shikha Sharma</h1>
-        <p class="subtitle">Strategic Mixed-Methods Researcher</p>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-info">
+          <h1>Shikha Sharma</h1>
+          <p class="subtitle">Strategic Mixed-Methods Researcher</p>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> uxshikha@gmail.com</p>
+          <p><i class="fas fa-phone"></i> (909) 569-7159</p>
+          <p><i class="fab fa-linkedin"></i> linkedin.com/in/shikhasharma4</p>
+        </div>
       </div>
-      <div class="contact-info">
-        <p>uxshikha@gmail.com</p>
-        <p>(909) 569-7159</p>
-        <p>linkedin.com/in/shikhasharma4</p>
+      <div class="header-intro">
+        <p>I'm a strategic mixed-methods research partner whose work has informed and been cited in a $4B IPO, shaped multi-year platform evolution in developer tools, and supported high-stakes decisions across acquisitions, partnerships, and emerging technologies including AI/ML.</p>
       </div>
     </div>
-    <p>I'm a strategic mixed-methods research partner whose work has informed and been cited in a $4B IPO, shaped multi-year platform evolution in developer tools, and supported high-stakes decisions across acquisitions, partnerships, and emerging technologies including AI/ML.</p>
   </header>
   
-  <nav>
-    <ul>
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#case-studies">Case Studies</a></li>
-      <li><a href="#approach">Research Approach</a></li>
-      <li><a href="#impact">Business Impact</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <nav class="main-nav">
+    <div class="container">
+      <ul>
+        <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#case-studies"><i class="fas fa-briefcase"></i> Case Studies</a></li>
+        <li><a href="#approach"><i class="fas fa-lightbulb"></i> Research Approach</a></li>
+        <li><a href="#impact"><i class="fas fa-chart-line"></i> Business Impact</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </div>
   </nav>
   
-  <section class="intro">
-    <p>As an experienced IC researcher embedded in rapidly scaling product organizations, I've proven that research built as a system of intelligence delivers the clarity teams need to stay aligned, move with focus, and lead through transformation.</p>
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="intro-content" data-aos="fade-up">
+        <h2 class="section-title">Research as a System of Intelligence</h2>
+        <p>As an experienced IC researcher embedded in rapidly scaling product organizations, I've proven that research built as a system of intelligence delivers the clarity teams need to stay aligned, move with focus, and lead through transformation.</p>
+        <div class="cta-buttons">
+          <a href="#case-studies" class="btn primary">Explore My Work</a>
+          <a href="#contact" class="btn secondary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
   </section>
   
-  <h2 id="case-studies">Featured Case Studies</h2>
-  
-  <div class="case-studies">
-    <div class="case-study-card">
-      <div class="case-header">
-        <h3>Kubernetes Copilot Strategy</h3>
-        <p>Strategic clarity in assessing AI augmentation</p>
-      </div>
-      <div class="case-content">
-        <p>Reframed AI augmentation approach for infrastructure tooling by revealing the real dimensions of developer trust and explainability needs.</p>
-        
-        <div class="metrics">
-          <p><strong>Impact:</strong> Prevented premature investment in misaligned AI features</p>
-          <p><strong>Resources:</strong> Redirected $800K in development resources</p>
-          <p><strong>Influence:</strong> Shaped Terraform Copilot early explorations</p>
+  <section id="case-studies" class="case-studies-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Featured Case Studies</h2>
+      
+      <div class="case-studies-grid">
+        <div class="case-study-card kubernetes" data-aos="fade-up">
+          <div class="case-tag">AI Trust Analysis</div>
+          <div class="case-header">
+            <h3>Kubernetes Copilot Strategy</h3>
+            <p>Strategic clarity in assessing AI augmentation</p>
+          </div>
+          <div class="case-content">
+            <p>Reframed AI augmentation approach for infrastructure tooling by revealing the real dimensions of developer trust and explainability needs.</p>
+            
+            <div class="metrics-container">
+              <div class="metric">
+                <div class="metric-value">$800K</div>
+                <div class="metric-label">Resources redirected</div>
+              </div>
+              <div class="divider"></div>
+              <div class="metric">
+                <div class="metric-value">3+</div>
+                <div class="metric-label">Teams influenced</div>
+              </div>
+            </div>
+            
+            <a href="kubernetes-case.html" class="btn view-case">
+              <span>View Case Study</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
         
-        <a href="kubernetes-case.html" class="btn">View Case Study</a>
-      </div>
-    </div>
-    
-    <div class="case-study-card">
-      <div class="case-header">
-        <h3>AI/ML Platform Adoption Research</h3>
-        <p>Revealing the real drivers of developer choice</p>
-      </div>
-      <div class="case-content">
-        <p>Uncovered that developer momentum, not hardware specs, drove AI/ML platform selection and retention. Redirected focus to onboarding experience and documentation.</p>
-        
-        <div class="metrics">
-          <p><strong>Impact:</strong> 35% increase in project starts</p>
-          <p><strong>Resources:</strong> $1M+ reallocated from hardware to UX</p>
-          <p><strong>Success:</strong> 40% improvement in first-run success</p>
+        <div class="case-study-card aiml" data-aos="fade-up" data-aos-delay="100">
+          <div class="case-tag">Platform Strategy</div>
+          <div class="case-header">
+            <h3>AI/ML Platform Adoption Research</h3>
+            <p>Revealing the real drivers of developer choice</p>
+          </div>
+          <div class="case-content">
+            <p>Uncovered that developer momentum, not hardware specs, drove AI/ML platform selection and retention. Redirected focus to onboarding experience and documentation.</p>
+            
+            <div class="metrics-container">
+              <div class="metric">
+                <div class="metric-value">35%</div>
+                <div class="metric-label">Project starts increase</div>
+              </div>
+              <div class="divider"></div>
+              <div class="metric">
+                <div class="metric-value">$1M+</div>
+                <div class="metric-label">Resource reallocation</div>
+              </div>
+            </div>
+            
+            <a href="aiml-case.html" class="btn view-case">
+              <span>View Case Study</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
         
-        <a href="aiml-case.html" class="btn">View Case Study</a>
-      </div>
-    </div>
-    
-    <div class="case-study-card">
-      <div class="case-header">
-        <h3>Developer Experience Atlas</h3>
-        <p>Mapping friction across product boundaries</p>
-      </div>
-      <div class="case-content">
-        <p>Created cross-product journey map revealing critical friction points invisible to siloed teams during rapid IPO preparation.</p>
-        
-        <div class="metrics">
-          <p><strong>Impact:</strong> 15% ARPU increase</p>
-          <p><strong>Influence:</strong> Cited in IPO S-1 filing</p>
-          <p><strong>Adoption:</strong> Became standard onboarding artifact</p>
+        <div class="case-study-card atlas" data-aos="fade-up" data-aos-delay="200">
+          <div class="case-tag">Journey Mapping</div>
+          <div class="case-header">
+            <h3>Developer Experience Atlas</h3>
+            <p>Mapping friction across product boundaries</p>
+          </div>
+          <div class="case-content">
+            <p>Created cross-product journey map revealing critical friction points invisible to siloed teams during rapid IPO preparation.</p>
+            
+            <div class="metrics-container">
+              <div class="metric">
+                <div class="metric-value">15%</div>
+                <div class="metric-label">ARPU increase</div>
+              </div>
+              <div class="divider"></div>
+              <div class="metric">
+                <div class="metric-value">IPO</div>
+                <div class="metric-label">S-1 filing citation</div>
+              </div>
+            </div>
+            
+            <a href="atlas-case.html" class="btn view-case">
+              <span>View Case Study</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
         
-        <a href="atlas-case.html" class="btn">View Case Study</a>
-      </div>
-    </div>
-    
-    <div class="case-study-card">
-      <div class="case-header">
-        <h3>The Expert's Need for Simplicity</h3>
-        <p>Challenging assumptions about PaaS adoption</p>
-      </div>
-      <div class="case-content">
-        <p>Discovered that senior developers often value abstraction more than mid-level developers, leading to a strategic reframing of our App Platform positioning.</p>
-        
-        <div class="metrics">
-          <p><strong>Impact:</strong> 27% increase in PaaS adoption</p>
-          <p><strong>Retention:</strong> 32% improvement after transparency updates</p>
-          <p><strong>Success:</strong> Task success improved 30-65%</p>
+        <div class="case-study-card simplicity" data-aos="fade-up" data-aos-delay="300">
+          <div class="case-tag">User Modeling</div>
+          <div class="case-header">
+            <h3>The Expert's Need for Simplicity</h3>
+            <p>Challenging assumptions about PaaS adoption</p>
+          </div>
+          <div class="case-content">
+            <p>Discovered that senior developers often value abstraction more than mid-level developers, leading to a strategic reframing of our App Platform positioning.</p>
+            
+            <div class="metrics-container">
+              <div class="metric">
+                <div class="metric-value">27%</div>
+                <div class="metric-label">PaaS adoption increase</div>
+              </div>
+              <div class="divider"></div>
+              <div class="metric">
+                <div class="metric-value">32%</div>
+                <div class="metric-label">Retention improvement</div>
+              </div>
+            </div>
+            
+            <a href="simplicity-case.html" class="btn view-case">
+              <span>View Case Study</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        
-        <a href="simplicity-case.html" class="btn">View Case Study</a>
       </div>
     </div>
-  </div>
-  
-  <h2 id="approach">Research Approach</h2>
-  
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); margin-bottom: var(--space-xxl);">
-    <div>
-      <h3>Research as a System of Intelligence</h3>
-      <p>I approach research as an organizational capability, not just a service function. My work focuses on making insight both actionable in the moment and durable across time by:</p>
-      
-      <ul style="margin-left: var(--space-xl); margin-bottom: var(--space-md);">
-        <li>Reframing problems to uncover strategic opportunities</li>
-        <li>Building research infrastructure that creates organizational memory</li>
-        <li>Connecting qualitative insights to quantifiable business impact</li>
-        <li>Creating artifacts that drive alignment across disciplines</li>
-      </ul>
-      
-      <p>This systems approach ensures that research compounds in value over time rather than existing as isolated studies.</p>
-    </div>
-    
-    <div class="artifact-container">
-      <div class="artifact-header">
-        <h4>ML Platform Adoption Framework</h4>
-      </div>
-      
-      <img src="artifacts/ml-adoption-framework.svg" alt="ML Platform Adoption Framework" class="artifact-img">
-      
-      <p>This framework exemplifies my approach to turning research into a strategic asset. It juxtaposes organizational assumptions against research findings, creating clear guidance for action across teams.</p>
-    </div>
-  </div>
-  
-  <div class="artifact-container">
-    <div class="artifact-header">
-      <h4>Mixed-Methods Research Framework</h4>
-    </div>
-    
-    <img src="artifacts/methodology-framework.svg" alt="Mixed-Methods Research Framework" class="artifact-img">
-    
-    <p>My research methodology balances qualitative depth with quantitative validation, while maintaining focus on strategic framing and impact measurement.</p>
-  </div>
-  
-  <h2 id="impact">Strategic Business Impact</h2>
-  
-  <div class="key-insights">
-    <div class="insight-card">
-      <h4>$1M+ Resource Reallocation</h4>
-      <p>My ML Platform research redirected significant resources from hardware benchmarking to developer experience improvements, resulting in 35% increase in project starts.</p>
-    </div>
-    
-    <div class="insight-card">
-      <h4>IPO Positioning Influence</h4>
-      <p>Developer Experience Atlas research was cited in IPO materials and helped shape how DigitalOcean presented its platform vision to investors.</p>
-    </div>
-    
-    <div class="insight-card">
-      <h4>Research System Implementation</h4>
-      <p>Built research infrastructure that scaled 8x in activity volume over two years while reducing insight generation time by 35%.</p>
-    </div>
-    
-    <div class="insight-card">
-      <h4>Decision-Making Acceleration</h4>
-      <p>By 2022, 45% of roadmap decisions were directly informed by user research, up from 12% in 2019.</p>
-    </div>
-  </div>
-  
-  <div class="artifact-container">
-    <div class="artifact-header">
-      <h4>Research Impact Dashboard</h4>
-      <span>Business Impact Visualization</span>
-    </div>
-    
-    <img src="artifacts/research-impact-dashboard.svg" alt="Research Impact Dashboard" class="artifact-img">
-    
-    <p><strong>Purpose:</strong> This dashboard visualizes the measurable impact of strategic research across different product areas. It shows how research activity correlates with product changes, ARPU increases, and decision-making velocity.</p>
-    
-    <p><strong>Impact:</strong> This visualization became a quarterly reporting standard for research ROI discussions with executive leadership and helped secure additional research funding during budget planning.</p>
-  </div>
-  
-  <div class="artifact-container">
-    <div class="artifact-header">
-      <h4>Research Infrastructure System</h4>
-    </div>
-    
-    <img src="artifacts/research-infrastructure.svg" alt="Research Infrastructure System" class="artifact-img">
-    
-    <p>This visualization demonstrates how I built a scalable research system that transformed research from a service function into an organizational capability.</p>
-  </div>
-  
-  <section id="contact" style="text-align: center; margin-top: var(--space-xxl);">
-    <h2 style="padding-left: 0;">Get in Touch</h2>
-    <h2 style="padding-left: 0; display: none;"><!-- Hide the second diamond --></h2>
-    
-    <p style="max-width: 600px; margin: 0 auto var(--space-lg);">
-      I'm currently exploring new opportunities where my strategic research approach can drive product decisions and business transformation. Let's connect!
-    </p>
-    
-    <p>
-      <strong>Email:</strong> uxshikha@gmail.com<br>
-      <strong>Phone:</strong> (909) 569-7159<br>
-      <strong>LinkedIn:</strong> linkedin.com/in/shikhasharma4
-    </p>
   </section>
   
-  <footer>
-    <p>© 2025 Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+  <section id="approach" class="approach-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Research Approach</h2>
+      
+      <div class="approach-content">
+        <div class="approach-text" data-aos="fade-right">
+          <h3>Research as a System of Intelligence</h3>
+          <p>I approach research as an organizational capability, not just a service function. My work focuses on making insight both actionable in the moment and durable across time through:</p>
+          
+          <div class="approach-pillars">
+            <div class="approach-pillar">
+              <div class="pillar-icon"><i class="fas fa-sync-alt"></i></div>
+              <div class="pillar-text">
+                <h4>Reframing Problems</h4>
+                <p>Uncovering strategic opportunities by asking better questions</p>
+              </div>
+            </div>
+            
+            <div class="approach-pillar">
+              <div class="pillar-icon"><i class="fas fa-database"></i></div>
+              <div class="pillar-text">
+                <h4>Building Research Infrastructure</h4>
+                <p>Creating organizational memory through systematic knowledge capture</p>
+              </div>
+            </div>
+            
+            <div class="approach-pillar">
+              <div class="pillar-icon"><i class="fas fa-chart-bar"></i></div>
+              <div class="pillar-text">
+                <h4>Connecting Insights to Impact</h4>
+                <p>Translating qualitative findings to quantifiable business results</p>
+              </div>
+            </div>
+            
+            <div class="approach-pillar">
+              <div class="pillar-icon"><i class="fas fa-project-diagram"></i></div>
+              <div class="pillar-text">
+                <h4>Creating Alignment Artifacts</h4>
+                <p>Developing visual tools that drive consensus across disciplines</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="approach-artifact" data-aos="fade-left">
+          <div class="artifact-container">
+            <h4>Mixed-Methods Research Framework</h4>
+            <img src="artifacts/methodology-framework.svg" alt="Mixed-Methods Research Framework" class="artifact-img">
+            <div class="artifact-caption">
+              <p>This framework illustrates my balanced approach to combining qualitative depth, quantitative validation, strategic framing, and impact measurement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="approach-showcase">
+        <div class="showcase-artifact" data-aos="fade-up">
+          <div class="artifact-container">
+            <h4>ML Platform Adoption Framework</h4>
+            <img src="artifacts/ml-adoption-framework.svg" alt="ML Platform Adoption Framework" class="artifact-img">
+            <div class="artifact-overlay">
+              <div class="overlay-content">
+                <h5>Key Finding</h5>
+                <p>Developers valued workflow fit over raw performance</p>
+                <a href="aiml-case.html" class="btn secondary small">See Full Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="impact" class="impact-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Strategic Business Impact</h2>
+      
+      <div class="impact-metrics" data-aos="fade-up">
+        <div class="impact-metric">
+          <div class="metric-value">$1M+</div>
+          <div class="metric-label">Resource Reallocation</div>
+          <p>ML Platform research redirected resources from hardware benchmarking to developer experience</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">$4B</div>
+          <div class="metric-label">IPO Influence</div>
+          <p>Developer Experience Atlas research cited in IPO materials to explain platform vision</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">8x</div>
+          <div class="metric-label">Research System Growth</div>
+          <p>Research infrastructure scaled activity volume while reducing insight generation time</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">45%</div>
+          <div class="metric-label">Decision Influence</div>
+          <p>Roadmap decisions directly informed by user research, up from 12% in 2019</p>
+        </div>
+      </div>
+      
+      <div class="impact-showcase" data-aos="fade-up">
+        <div class="artifact-container large">
+          <h4>Research Impact Dashboard</h4>
+          <div class="artifact-tabs">
+            <div class="tab active" data-tab="overview">Overview</div>
+            <div class="tab" data-tab="details">Key Metrics</div>
+            <div class="tab" data-tab="insights">Strategic Insights</div>
+          </div>
+          
+          <div class="tab-content">
+            <div class="tab-pane active" id="overview">
+              <img src="artifacts/research-impact-dashboard.svg" alt="Research Impact Dashboard" class="artifact-img">
+            </div>
+            <div class="tab-pane" id="details">
+              <div class="dashboard-details">
+                <div class="detail-item">
+                  <h5>Research Growth</h5>
+                  <p>Studies increased 8x from 2020 to 2022, with insight generation time reduced by 35%</p>
+                </div>
+                <div class="detail-item">
+                  <h5>Product Impact</h5>
+                  <p>142 product features directly influenced, with ARPU increases across all affected products</p>
+                </div>
+                <div class="detail-item">
+                  <h5>Strategic Influence</h5>
+                  <p>Research findings now inform 45% of roadmap decisions, establishing research as a strategic function</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="insights">
+              <div class="dashboard-insights">
+                <div class="insight-item">
+                  <div class="insight-status implemented">Implemented</div>
+                  <h5>Kubernetes: Trust requires explainability in AI features</h5>
+                  <p>Led to transparency-first AI feature design across platform</p>
+                </div>
+                <div class="insight-item">
+                  <div class="insight-status in-progress">In Progress</div>
+                  <h5>Cross-product friction causes 30% drop-off</h5>
+                  <p>Redesigning transition points between products to reduce friction</p>
+                </div>
+                <div class="insight-item">
+                  <div class="insight-status implemented">Implemented</div>
+                  <h5>First-run success defines long-term retention</h5>
+                  <p>Onboarding optimization improved retention by 32%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="artifact-caption">
+            <p><strong>Purpose:</strong> This dashboard visualizes the measurable impact of strategic research across product areas, connecting research activity to business outcomes.</p>
+            <p><strong>Impact:</strong> Became a quarterly reporting standard for research ROI discussions with executive leadership.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="infrastructure-showcase" data-aos="fade-up">
+        <div class="artifact-container">
+          <h4>Research Infrastructure System</h4>
+          <img src="artifacts/research-infrastructure.svg" alt="Research Infrastructure System" class="artifact-img">
+          <div class="artifact-caption">
+            <p>This visualization demonstrates how I built a scalable research system that transformed research from a service function into an organizational capability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Get in Touch</h2>
+      
+      <div class="contact-content" data-aos="fade-up">
+        <div class="contact-message">
+          <p>I'm currently exploring new opportunities where my strategic research approach can drive product decisions and business transformation. Let's connect!</p>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info">
+                <h4>Email</h4>
+                <p>uxshikha@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info">
+                <h4>Phone</h4>
+                <p>(909) 569-7159</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="contact-info">
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/shikhasharma4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-cta">
+          <a href="mailto:uxshikha@gmail.com" class="btn primary large">
+            <i class="fas fa-paper-plane"></i>
+            <span>Send me a message</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="current-year">2025</span> Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#approach">Research Approach</a>
+        <a href="#impact">Business Impact</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
   </footer>
   
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  
+  <!-- Import AOS library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
