@@ -76,72 +76,102 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // SVG loading error handling
+  document.querySelectorAll('.artifact-img').forEach(img => {
+    img.addEventListener('error', function() {
+      console.error('Failed to load image:', this.src);
+      this.alt = 'Image failed to load - Please check the file path';
+      this.style.height = '100px';
+      this.style.display = 'flex';
+      this.style.alignItems = 'center';
+      this.style.justifyContent = 'center';
+      this.style.backgroundColor = '#f8d7da';
+      this.style.color = '#721c24';
+      this.style.padding = '20px';
+      this.style.textAlign = 'center';
+      this.style.border = '1px solid #f5c6cb';
+      this.style.borderRadius = '4px';
+    });
+  });
+
   // Dynamically set current year in footer copyright
   const footerYear = document.querySelector('footer p');
   if (footerYear) {
     const currentYear = new Date().getFullYear();
     footerYear.textContent = footerYear.textContent.replace('2025', currentYear);
   }
-});
 
-// Lazy load images for better performance
-document.addEventListener('DOMContentLoaded', function() {
-  const lazyImages = document.querySelectorAll('img[data-src]');
-  
-  if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          img.src = img.dataset.src;
-          img.removeAttribute('data-src');
-          imageObserver.unobserve(img);
-        }
+  // Fix for SVG display in older browsers
+  if (document.querySelector('img[src$=".svg"]')) {
+    const fixSVGs = function() {
+      document.querySelectorAll('img[src$=".svg"]').forEach(img => {
+        const imgID = img.getAttribute('id');
+        const imgClass = img.getAttribute('class');
+        const imgURL = img.getAttribute('src');
+        
+        fetch(imgURL)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error(`Failed to load SVG (${response.status}): ${imgURL}`);
+            }
+            return response.text();
+          })
+          .then(data => {
+            // Get the SVG tag, ignore the rest
+            const parser = new DOMParser();
+            const svg = parser.parseFromString(data, 'image/svg+xml').querySelector('svg');
+            
+            // Add replaced image's ID to the new SVG
+            if (imgID) {
+              svg.setAttribute('id', imgID);
+            }
+            
+            // Add replaced image's classes to the new SVG
+            if (imgClass) {
+              svg.setAttribute('class', imgClass + ' replaced-svg');
+            }
+            
+            // Remove any invalid XML tags
+            svg.removeAttribute('xmlns:a');
+            
+            // Replace image with new SVG
+            img.parentNode.replaceChild(svg, img);
+          })
+          .catch(error => {
+            console.error('SVG replacement error:', error);
+            // Mark as failed with a placeholder
+            img.alt = 'SVG failed to load - Please check file path';
+            img.style.backgroundColor = '#f8d7da';
+            img.style.padding = '20px';
+            img.style.textAlign = 'center';
+            img.style.color = '#721c24';
+            img.style.border = '1px solid #f5c6cb';
+            img.style.borderRadius = '4px';
+          });
       });
-    });
+    };
     
-    lazyImages.forEach(img => {
-      imageObserver.observe(img);
-    });
-  } else {
-    // Fallback for browsers that don't support IntersectionObserver
-    lazyImages.forEach(img => {
-      img.src = img.dataset.src;
-      img.removeAttribute('data-src');
-    });
-  }
-});
-
-// Create a simple contact form validation (if you add a contact form later)
-function validateContactForm() {
-  const nameInput = document.getElementById('name');
-  const emailInput = document.getElementById('email');
-  const messageInput = document.getElementById('message');
-  let isValid = true;
-  
-  if (nameInput && nameInput.value.trim() === '') {
-    nameInput.classList.add('error');
-    isValid = false;
-  } else if (nameInput) {
-    nameInput.classList.remove('error');
-  }
-  
-  if (emailInput) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(emailInput.value)) {
-      emailInput.classList.add('error');
-      isValid = false;
-    } else {
-      emailInput.classList.remove('error');
+    // Only attempt to fix SVGs on desktop browsers where fetch is available
+    if (window.fetch) {
+      setTimeout(fixSVGs, 1000); // Give a small delay for page to settle
     }
   }
-  
-  if (messageInput && messageInput.value.trim() === '') {
-    messageInput.classList.add('error');
-    isValid = false;
-  } else if (messageInput) {
-    messageInput.classList.remove('error');
-  }
-  
-  return isValid;
-}  
+
+  // Add smooth scrolling to all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const href = this.getAttribute('href');
+      
+      if (href !== '#') {
+        e.preventDefault();
+        
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
+  });
+});
