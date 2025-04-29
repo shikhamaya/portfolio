@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <!-- Background -->
+  <rect width="960" height="720" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="480" y="40" font-family="Inter, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#0F172A">Kubernetes Copilot Concept Testing Storyboards</text>
+  <text x="480" y="70" font-family="Inter, sans-serif" font-weight="500" font-size="16" text-anchor="middle" fill="#63687E">Three distinct AI assistance models evaluated with experienced users</text>
+  
+  <!-- Main Container -->
+  <rect x="40" y="90" width="880" height="600" fill="#F7F9FC" rx="6"/>
+  
+  <!-- Concept 1: Observability Assistant -->
+  <rect x="60" y="110" width="840" height="180" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <rect x="60" y="110" width="10" height="180" fill="#3D5CFF" rx="4"/>
+  
+  <text x="90" y="135" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#0F172A">Concept 1: Observability Assistant</text>
+  <text x="90" y="160" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">AI that helps interpret logs, metrics, and cluster state to identify patterns and anomalies</text>
+  
+  <!-- Concept 1 Storyboard Frames -->
+  <rect x="90" y="180" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="100" y="200" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 1</text>
+  <text x="100" y="220" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User notices spike</text>
+  <text x="100" y="235" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">in error rate</text>
+  <text x="100" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">dashboard</text>
+  
+  <rect x="230" y="180" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="240" y="200" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 2</text>
+  <text x="240" y="220" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User clicks "Ask</text>
+  <text x="240" y="235" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot" to analyze</text>
+  <text x="240" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">the issue</text>
+  
+  <rect x="370" y="180" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="380" y="200" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 3</text>
+  <text x="380" y="220" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot correlates</text>
+  <text x="380" y="235" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">logs and metrics</text>
+  <text x="380" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">across services</text>
+  
+  <rect x="510" y="180" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="520" y="200" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 4</text>
+  <text x="520" y="220" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot highlights</text>
+  <text x="520" y="235" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">memory pressure</text>
+  <text x="520" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">as likely cause</text>
+  
+  <rect x="650" y="180" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="660" y="200" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 5</text>
+  <text x="660" y="220" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User can see all</text>
+  <text x="660" y="235" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">analyzed data and</text>
+  <text x="660" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">correlation logic</text>
+  
+  <rect x="790" y="180" width="80" height="80" fill="rgba(0, 94, 90, 0.075)" rx="4"/>
+  <text x="830" y="210" font-family="Inter, sans-serif" font-weight="700" font-size="16" text-anchor="middle" fill="#005E5A">83%</text>
+  <text x="830" y="230" font-family="Inter, sans-serif" font-weight="500" font-size="10" text-anchor="middle" fill="#005E5A">User</text>
+  <text x="830" y="245" font-family="Inter, sans-serif" font-weight="500" font-size="10" text-anchor="middle" fill="#005E5A">Approval</text>
+  
+  <!-- Concept 2: Setup Guide -->
+  <rect x="60" y="310" width="840" height="180" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <rect x="60" y="310" width="10" height="180" fill="#E03131" rx="4"/>
+  
+  <text x="90" y="335" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#0F172A">Concept 2: Automated Setup Guide</text>
+  <text x="90" y="360" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">AI that automates cluster creation and configuration with less manual input</text>
+  
+  <!-- Concept 2 Storyboard Frames -->
+  <rect x="90" y="380" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="100" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 1</text>
+  <text x="100" y="420" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User starts new</text>
+  <text x="100" y="435" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">cluster wizard</text>
+  <text x="100" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">with Copilot</text>
+  
+  <rect x="230" y="380" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="240" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 2</text>
+  <text x="240" y="420" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot suggests</text>
+  <text x="240" y="435" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">optimal cluster</text>
+  <text x="240" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">configuration</text>
+  
+  <rect x="370" y="380" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="380" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 3</text>
+  <text x="380" y="420" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User approves</text>
+  <text x="380" y="435" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">config with minimal</text>
+  <text x="380" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">modifications</text>
+  
+  <rect x="510" y="380" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="520" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 4</text>
+  <text x="520" y="420" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot automates</text>
+  <text x="520" y="435" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">cluster creation</text>
+  <text x="520" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">and setup</text>
+  
+  <rect x="650" y="380" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="660" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 5</text>
+  <text x="660" y="420" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot provides</text>
+  <text x="660" y="435" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">summary of all</text>
+  <text x="660" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">steps performed</text>
+  
+  <rect x="790" y="380" width="80" height="80" fill="rgba(231, 76, 60, 0.1)" rx="4"/>
+  <text x="830" y="410" font-family="Inter, sans-serif" font-weight="700" font-size="16" text-anchor="middle" fill="#E03131">26%</text>
+  <text x="830" y="430" font-family="Inter, sans-serif" font-weight="500" font-size="10" text-anchor="middle" fill="#E03131">User</text>
+  <text x="830" y="445" font-family="Inter, sans-serif" font-weight="500" font-size="10" text-anchor="middle" fill="#E03131">Approval</text>
+  
+  <!-- Concept 3: Debugging Assistant -->
+  <rect x="60" y="510" width="840" height="180" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <rect x="60" y="510" width="10" height="180" fill="#3D5CFF" rx="4"/>
+  
+  <text x="90" y="535" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#0F172A">Concept 3: Drift Debugging Assistant</text>
+  <text x="90" y="560" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">AI that identifies configuration drift and suggests targeted fixes</text>
+  
+  <!-- Concept 3 Storyboard Frames -->
+  <rect x="90" y="580" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="100" y="600" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 1</text>
+  <text x="100" y="620" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User notices</text>
+  <text x="100" y="635" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">deployment state</text>
+  <text x="100" y="650" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">inconsistency</text>
+  
+  <rect x="230" y="580" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="240" y="600" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 2</text>
+  <text x="240" y="620" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User asks Copilot</text>
+  <text x="240" y="635" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">to analyze drift</text>
+  <text x="240" y="650" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">between desired/actual</text>
+  
+  <rect x="370" y="580" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="380" y="600" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 3</text>
+  <text x="380" y="620" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot shows diff</text>
+  <text x="380" y="635" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">of configuration</text>
+  <text x="380" y="650" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">with timeline</text>
+  
+  <rect x="510" y="580" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="520" y="600" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 4</text>
+  <text x="520" y="620" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">Copilot suggests</text>
+  <text x="520" y="635" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">specific kubectl</text>
+  <text x="520" y="650" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">commands to fix</text>
+  
+  <rect x="650" y="580" width="120" height="80" fill="#FFFFFF" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="660" y="600" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#0F172A">Frame 5</text>
+  <text x="660" y="620" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">User reviews all</text>
+  <text x="660" y="635" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">suggested changes</text>
+  <text x="660" y="650" font-family="Inter, sans-serif" font-weight="400" font-size="10" fill="#63687E">before executing</text>
+  
+  <rect x="790" y="580" width="80" height="80" fill="rgba(0, 94, 90, 0.075)" rx="4"/>
+  <text x="830" y="610" font-family="Inter, sans-serif" font-weight="700" font-size="16" text-anchor="middle" fill="#005E5A">91%</text>
+  <text x="830" y="630" font-family="Inter, sans-serif" font-weight="500" font-size="10" text-anchor="middle" fill="#005E5A">User</text>
+  <text x="830" y="645" font-family="Inter, sans-serif" font-weight="500" font-size="10" text-anchor="middle" fill="#005E5A">Approval</text>
+  
+  <!-- Key Findings -->
+  <rect x="40" y="700" width="880" height="1" fill="#E5E9F2"/>
+  <text x="480" y="715" font-family="Inter, sans-serif" font-weight="500" font-size="14" text-anchor="middle" fill="#0F172A">Key Finding: Users valued transparency and control over automation, preferring AI as a reasoning aid rather than an executor</text>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Inter, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#0F172A">Mixed-Methods Research Framework</text>
+  <text x="450" y="70" font-family="Inter, sans-serif" font-weight="500" font-size="16" text-anchor="middle" fill="#63687E">Strategic approach to infrastructure and developer research</text>
+  
+  <!-- Main Container -->
+  <rect x="50" y="100" width="800" height="450" fill="#F7F9FC" rx="6"/>
+  
+  <!-- Main Quadrants -->
+  <line x1="450" y1="100" x2="450" y2="550" stroke="#E5E9F2" stroke-width="2"/>
+  <line x1="50" y1="325" x2="850" y2="325" stroke="#E5E9F2" stroke-width="2"/>
+  
+  <!-- Quadrant Labels -->
+  <text x="250" y="130" font-family="Inter, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#005E5A">QUALITATIVE DEPTH</text>
+  <text x="650" y="130" font-family="Inter, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#005E5A">QUANTITATIVE VALIDATION</text>
+  <text x="250" y="355" font-family="Inter, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#005E5A">STRATEGIC FRAMING</text>
+  <text x="650" y="355" font-family="Inter, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#005E5A">IMPACT MEASUREMENT</text>
+  
+  <!-- Upper Left Quadrant: Qualitative Depth -->
+  <rect x="80" y="150" width="340" height="145" rx="4" fill="#FFFFFF" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="100" y="175" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Methods:</text>
+  <text x="100" y="200" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Contextual Inquiry</text>
+  <text x="100" y="225" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Semi-structured Interviews</text>
+  <text x="100" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Workflow Mapping</text>
+  <text x="100" y="275" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Mental Model Exploration</text>
+  
+  <text x="300" y="175" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Outputs:</text>
+  <text x="300" y="200" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Journey Maps</text>
+  <text x="300" y="225" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Experience Frameworks</text>
+  <text x="300" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Pain Point Inventories</text>
+  <text x="300" y="275" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Behavior Patterns</text>
+  
+  <!-- Upper Right Quadrant: Quantitative Validation -->
+  <rect x="480" y="150" width="340" height="145" rx="4" fill="#FFFFFF" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="500" y="175" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Methods:</text>
+  <text x="500" y="200" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Surveys & Usage Analytics</text>
+  <text x="500" y="225" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Usability Benchmarking</text>
+  <text x="500" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• A/B Testing</text>
+  <text x="500" y="275" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Funnel Analysis</text>
+  
+  <text x="700" y="175" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Outputs:</text>
+  <text x="700" y="200" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Statistical Validation</text>
+  <text x="700" y="225" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Feature Prioritization</text>
+  <text x="700" y="250" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Segmentation Models</text>
+  <text x="700" y="275" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Behavioral Clusters</text>
+  
+  <!-- Lower Left Quadrant: Strategic Framing -->
+  <rect x="80" y="375" width="340" height="145" rx="4" fill="#FFFFFF" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="100" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Methods:</text>
+  <text x="100" y="425" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Stakeholder Interviews</text>
+  <text x="100" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Competitive Analysis</text>
+  <text x="100" y="475" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Jobs-to-be-Done Framework</text>
+  <text x="100" y="500" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Concept Evaluation</text>
+  
+  <text x="300" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Outputs:</text>
+  <text x="300" y="425" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Strategic Narratives</text>
+  <text x="300" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Problem Reframing</text>
+  <text x="300" y="475" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Opportunity Maps</text>
+  <text x="300" y="500" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Decision Frameworks</text>
+  
+  <!-- Lower Right Quadrant: Impact Measurement -->
+  <rect x="480" y="375" width="340" height="145" rx="4" fill="#FFFFFF" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="500" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Methods:</text>
+  <text x="500" y="425" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Longitudinal Studies</text>
+  <text x="500" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• ROI Analysis</text>
+  <text x="500" y="475" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Success Metrics Tracking</text>
+  <text x="500" y="500" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Organizational Adoption</text>
+  
+  <text x="700" y="400" font-family="Inter, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Outputs:</text>
+  <text x="700" y="425" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Business Impact Reports</text>
+  <text x="700" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Resource Allocation Data</text>
+  <text x="700" y="475" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Long-term Trend Analysis</text>
+  <text x="700" y="500" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">• Executive Dashboards</text>
+  
+  <!-- Integration Arrows -->
+  <path d="M 250 295 L 250 325 L 450 325 L 450 250 L 480 250" fill="none" stroke="#005E5A" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M 650 295 L 650 325 L 450 325 L 450 400 L 480 400" fill="none" stroke="#005E5A" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M 250 520 L 250 550 L 650 550 L 650 520" fill="none" stroke="#005E5A" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Approach Summary -->
+  <rect x="50" y="570" width="800" height="20" fill="rgba(0, 94, 90, 0.075)"/>
+  <text x="450" y="585" font-family="Inter, sans-serif" font-weight="500" font-size="14" text-anchor="middle" fill="#005E5A">Research as a circular system: Each quadrant feeds into and strengthens the others</text>
+</svg>

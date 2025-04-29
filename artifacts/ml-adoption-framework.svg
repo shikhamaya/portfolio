@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Inter, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#0F172A">ML Platform Adoption Framework</text>
+  <text x="450" y="70" font-family="Inter, sans-serif" font-weight="500" font-size="16" text-anchor="middle" fill="#63687E">Uncovering the real drivers of ML developer platform decisions</text>
+  
+  <!-- Framework Container -->
+  <rect x="50" y="100" width="800" height="550" fill="#F7F9FC" rx="6"/>
+  
+  <!-- Section Dividers -->
+  <line x1="50" y1="250" x2="850" y2="250" stroke="#E5E9F2" stroke-width="2"/>
+  <line x1="50" y1="400" x2="850" y2="400" stroke="#E5E9F2" stroke-width="2"/>
+  <line x1="50" y1="550" x2="850" y2="550" stroke="#E5E9F2" stroke-width="2"/>
+  
+  <!-- Vertical Dividers -->
+  <line x1="450" y1="100" x2="450" y2="650" stroke="#E5E9F2" stroke-width="2"/>
+  
+  <!-- Section Headers -->
+  <text x="70" y="140" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Platform Evaluation</text>
+  <text x="70" y="165" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">How ML developers assess platforms</text>
+  
+  <text x="470" y="140" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Initial Experience</text>
+  <text x="470" y="165" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">First 48 hours are decisive</text>
+  
+  <text x="70" y="290" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Trust Building</text>
+  <text x="70" y="315" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">What creates platform confidence</text>
+  
+  <text x="470" y="290" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Workflow Integration</text>
+  <text x="470" y="315" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">How platforms fit into existing tools</text>
+  
+  <text x="70" y="440" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Scaling Behaviors</text>
+  <text x="70" y="465" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">Transition from experimentation to production</text>
+  
+  <text x="470" y="440" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Support & Community</text>
+  <text x="470" y="465" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">The social layer of platform adoption</text>
+  
+  <text x="70" y="590" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Key Research Insights</text>
+  <text x="70" y="615" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">Strategic implications for platform design</text>
+  
+  <text x="470" y="590" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#005E5A">Business Impact</text>
+  <text x="470" y="615" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#63687E">Measured outcomes of research-driven changes</text>
+  
+  <!-- Content Boxes - Platform Evaluation -->
+  <rect x="70" y="180" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="85" y="210" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">🏆 Expected: Hardware Specs & Performance</text>
+  
+  <rect x="70" y="190" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="85" y="220" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">✅ Found: Developer Momentum & Workflow Fit</text>
+  
+  <!-- Content Boxes - Initial Experience -->
+  <rect x="470" y="180" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="485" y="210" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">⚠️ 42% abandon if first run fails</text>
+  
+  <rect x="470" y="190" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="485" y="220" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">📈 Success metric: Time to working model</text>
+  
+  <!-- Content Boxes - Trust Building -->
+  <rect x="70" y="330" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="85" y="360" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">⚠️ Expected: Reputation & Benchmarks</text>
+  
+  <rect x="70" y="340" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="85" y="370" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">✅ Found: Documentation Quality & Examples</text>
+  
+  <!-- Content Boxes - Workflow Integration -->
+  <rect x="470" y="330" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="485" y="360" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">⚠️ Expected: Comprehensive environment</text>
+  
+  <rect x="470" y="340" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="485" y="370" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">✅ Found: Flexible integration with existing tools</text>
+  
+  <!-- Content Boxes - Scaling Behaviors -->
+  <rect x="70" y="480" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="85" y="510" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">⚠️ Expected: Linear Scaling Concern</text>
+  
+  <rect x="70" y="490" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="85" y="520" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">✅ Found: Predictability trumps raw power</text>
+  
+  <!-- Content Boxes - Support & Community -->
+  <rect x="470" y="480" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#E5E9F2" stroke-width="1"/>
+  <text x="485" y="510" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">⚠️ Expected: Formal documentation sufficient</text>
+  
+  <rect x="470" y="490" width="340" height="50" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="485" y="520" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">✅ Found: Community is the true trust layer</text>
+  
+  <!-- Key Research Insights Box -->
+  <rect x="70" y="630" width="340" height="90" fill="#FFFFFF" rx="4" stroke="#3D5CFF" stroke-width="2"/>
+  <text x="85" y="650" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">1. Workflow fit > Hardware specs</text>
+  <text x="85" y="675" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">2. Documentation is a strategic asset</text>
+  <text x="85" y="700" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">3. First-run success is the real KPI</text>
+  
+  <!-- Business Impact Box -->
+  <rect x="470" y="630" width="340" height="90" fill="rgba(0, 94, 90, 0.075)" rx="4" stroke="#005E5A" stroke-width="2"/>
+  <text x="485" y="650" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">🔄 $1M+ resource reallocation</text>
+  <text x="485" y="675" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">📈 35% increase in project starts</text>
+  <text x="485" y="700" font-family="Inter, sans-serif" font-weight="600" font-size="14" fill="#0F172A">🚀 40% improvement in first-run success</text>
+</svg>
