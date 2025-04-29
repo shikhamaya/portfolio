@@ -3,171 +3,520 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI/ML Platform Adoption Research - Shikha Sharma</title>
+  <title>AI/ML Platform Adoption Research | Shikha Sharma</title>
   
   <!-- Import Inter font -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" rel="stylesheet">
+  <!-- Import Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <!-- Import AOS for scroll animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/case-study.css">
 </head>
-<body>
-  <header>
-    <div class="header-top">
-      <div>
-        <h1>Shikha Sharma</h1>
-        <p class="subtitle">Strategic Mixed-Methods Researcher</p>
-      </div>
-      <div class="contact-info">
-        <p>uxshikha@gmail.com</p>
-        <p>(909) 569-7159</p>
-        <p>linkedin.com/in/shikhasharma4</p>
+<body class="case-study-page aiml-theme">
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-info">
+          <h1>Shikha Sharma</h1>
+          <p class="subtitle">Strategic Mixed-Methods Researcher</p>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> uxshikha@gmail.com</p>
+          <p><i class="fas fa-phone"></i> (909) 569-7159</p>
+          <p><i class="fab fa-linkedin"></i> linkedin.com/in/shikhasharma4</p>
+        </div>
       </div>
     </div>
   </header>
   
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html#case-studies">Case Studies</a></li>
-      <li><a href="index.html#approach">Research Approach</a></li>
-      <li><a href="index.html#impact">Business Impact</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
-    </ul>
+  <nav class="main-nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="index.html#case-studies" class="active"><i class="fas fa-briefcase"></i> Case Studies</a></li>
+        <li><a href="index.html#approach"><i class="fas fa-lightbulb"></i> Research Approach</a></li>
+        <li><a href="index.html#impact"><i class="fas fa-chart-line"></i> Business Impact</a></li>
+        <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </div>
   </nav>
   
-  <section class="case-study-detail">
-    <div class="case-hero">
-      <h2>AI/ML Platform Adoption Research</h2>
-      <p class="subtitle">Revealing the real drivers of ML platform adoption beyond infrastructure performance</p>
-      <div class="tags">
-        <span class="tag">AI/ML</span>
-        <span class="tag">Platform Strategy</span>
-        <span class="tag">User Research</span>
-        <span class="tag">Post-Acquisition</span>
+  <div class="case-study-navigation">
+    <div class="container">
+      <a href="index.html#case-studies" class="back-link"><i class="fas fa-arrow-left"></i> Back to all case studies</a>
+      <div class="case-nav-links">
+        <span>More Case Studies:</span>
+        <a href="kubernetes-case.html">Kubernetes Copilot Strategy</a>
+        <a href="atlas-case.html">Developer Experience Atlas</a>
+        <a href="simplicity-case.html">Expert's Need for Simplicity</a>
       </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Initial Situation</h3>
-      <p>After acquiring Paperspace, DigitalOcean saw an opportunity to expand into the AI/ML space by leveraging its newly acquired GPU infrastructure. The internal assumption was clear: Top-tier hardware would attract ML developers. As investment planning began, this idea was gaining momentum — backed by a roadmap focused on compute performance, benchmarking, and instance types.</p>
+  </div>
+  
+  <section class="case-hero aiml">
+    <div class="container">
+      <div class="case-tag" data-aos="fade-right">Platform Strategy</div>
+      <h1 data-aos="fade-up">AI/ML Platform Adoption Research</h1>
+      <p class="case-subtitle" data-aos="fade-up" data-aos-delay="100">Revealing the real drivers of ML platform adoption beyond infrastructure performance</p>
       
-      <p>But I knew from experience: adoption doesn't begin with specs. It begins with how developers think, learn, and build. So I reframed the research to ask a more consequential question: What actually drives ML developers to choose — and stick with — a cloud platform?</p>
+      <div class="case-meta" data-aos="fade-up" data-aos-delay="200">
+        <div class="meta-item">
+          <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+          <div class="meta-text">
+            <div class="meta-label">Timeline</div>
+            <div class="meta-value">2023-2024</div>
+          </div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-icon"><i class="fas fa-users"></i></div>
+          <div class="meta-text">
+            <div class="meta-label">Context</div>
+            <div class="meta-value">Post-Acquisition Integration</div>
+          </div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-icon"><i class="fas fa-tag"></i></div>
+          <div class="meta-text">
+            <div class="meta-label">Methods</div>
+            <div class="meta-value">Mixed-Methods, Contextual Inquiry</div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Research Mission</h3>
-      <p>Uncover what motivates AI/ML developers at each stage of their workflow:</p>
-      <ul style="margin-left: var(--space-xl); margin-bottom: var(--space-md);">
-        <li>What they look for when evaluating a platform</li>
-        <li>What blocks their progress (technically and cognitively)</li>
-        <li>What builds trust, fluency, and long-term usage</li>
-        <li>How infrastructure capabilities intersect with usability, cost, and support</li>
-      </ul>
-    </div>
-    
-    <div class="case-section">
-      <h3>Methodology</h3>
-      <table class="methodology-table">
-        <tr>
-          <th>Phase</th>
-          <th>Objective</th>
-          <th>Method</th>
-        </tr>
-        <tr>
-          <td>1. Stakeholder Alignment</td>
-          <td>Surface existing assumptions across engineering and GTM</td>
-          <td>SME and executive interviews</td>
-        </tr>
-        <tr>
-          <td>2. Mental Model Mapping</td>
-          <td>Understand how ML developers think about infrastructure</td>
-          <td>Depth interviews + JTBD probing</td>
-        </tr>
-        <tr>
-          <td>3. Contextual Inquiry</td>
-          <td>Observe real-world AI/ML workflows</td>
-          <td>Screen shares from dataset prep to deployment</td>
-        </tr>
-        <tr>
-          <td>4. Behavioral Modeling</td>
-          <td>Structure insights into motivational drivers and friction points</td>
-          <td>COM-B + thematic clustering</td>
-        </tr>
-        <tr>
-          <td>5. Segmentation & Synthesis</td>
-          <td>Distill meaningful adoption patterns across maturity levels</td>
-          <td>Persona tiering + insight frameworks</td>
-        </tr>
-      </table>
-    </div>
-    
-    <div class="artifact-container artifact-detail">
-      <div class="artifact-header">
-        <h4>ML Platform Adoption Framework</h4>
-        <span>Key Artifact</span>
+  </section>
+  
+  <section class="case-overview">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-map-marker-alt section-icon"></i> Initial Situation</h2>
+        <p class="lead-text">After acquiring Paperspace, DigitalOcean saw an opportunity to expand into the AI/ML space by leveraging its newly acquired GPU infrastructure. The internal assumption was clear: Top-tier hardware would attract ML developers.</p>
       </div>
       
-      <img src="artifacts/ml-adoption-framework.svg" alt="ML Platform Adoption Framework" class="artifact-img">
-      
-      <p><strong>Purpose:</strong> This framework juxtaposed organizational assumptions against user research findings to reveal the real drivers of ML platform adoption. It highlighted the gap between expected motivators (hardware specs) and actual motivators (workflow fit).</p>
-      
-      <p><strong>Impact:</strong> This artifact was instrumental in redirecting the product strategy from a hardware-centric approach to one focused on developer momentum and experience.</p>
+      <div class="overview-content">
+        <div class="text-content" data-aos="fade-right">
+          <p>As investment planning began, this idea was gaining momentum — backed by a roadmap focused on compute performance, benchmarking, and instance types. But I knew from experience: adoption doesn't begin with specs. It begins with how developers think, learn, and build.</p>
+          
+          <p>So I reframed the research to ask a more consequential question:</p>
+          
+          <blockquote>
+            What actually drives ML developers to choose — and stick with — a cloud platform?
+          </blockquote>
+        </div>
+        
+        <div class="image-content" data-aos="fade-left">
+          <div class="challenge-diagram">
+            <div class="challenge-item">
+              <div class="challenge-icon"><i class="fas fa-microchip"></i></div>
+              <div class="challenge-text">
+                <h4>Org Assumption</h4>
+                <p>Hardware specs drive platform selection</p>
+              </div>
+            </div>
+            <div class="challenge-vs">VS</div>
+            <div class="challenge-item">
+              <div class="challenge-icon"><i class="fas fa-user-cog"></i></div>
+              <div class="challenge-text">
+                <h4>Research Question</h4>
+                <p>What actually matters to ML developers?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Key Insights</h3>
+  </section>
+  
+  <section class="case-mission alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-bullseye section-icon"></i> Research Mission</h2>
+        <p class="lead-text">My research was designed to uncover what motivates AI/ML developers at each stage of their workflow.</p>
+      </div>
       
-      <div class="key-insights">
+      <div class="mission-objectives" data-aos="fade-up">
+        <div class="objective-item">
+          <div class="objective-number">01</div>
+          <h3>Platform Evaluation</h3>
+          <p>Identify what ML developers look for when evaluating a platform</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">02</div>
+          <h3>Progress Blockers</h3>
+          <p>Discover what blocks developer progress (both technically and cognitively)</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">03</div>
+          <h3>Trust Development</h3>
+          <p>Understand what builds trust, fluency, and long-term usage in an ML platform</p>
+        </div>
+        
+        <div class="objective-item">
+          <div class="objective-number">04</div>
+          <h3>Infrastructure Intersection</h3>
+          <p>Explore how infrastructure capabilities intersect with usability, cost, and support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-methodology">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-flask section-icon"></i> Methodology</h2>
+        <p class="lead-text">I employed a multi-phase approach to understand the ML developer mindset and workflow realities.</p>
+      </div>
+      
+      <div class="methodology-timeline" data-aos="fade-up">
+        <div class="timeline-phases">
+          <div class="phase active" data-phase="stakeholder">
+            <div class="phase-number">1</div>
+            <div class="phase-content">
+              <h3>Stakeholder Alignment</h3>
+              <p>Surfacing existing assumptions</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="mental-model">
+            <div class="phase-number">2</div>
+            <div class="phase-content">
+              <h3>Mental Model Mapping</h3>
+              <p>Understanding how ML developers think about infrastructure</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="contextual">
+            <div class="phase-number">3</div>
+            <div class="phase-content">
+              <h3>Contextual Inquiry</h3>
+              <p>Observing real-world AI/ML workflows</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="behavioral">
+            <div class="phase-number">4</div>
+            <div class="phase-content">
+              <h3>Behavioral Modeling</h3>
+              <p>Structuring insights into motivational drivers</p>
+            </div>
+          </div>
+          
+          <div class="phase" data-phase="segmentation">
+            <div class="phase-number">5</div>
+            <div class="phase-content">
+              <h3>Segmentation & Synthesis</h3>
+              <p>Distilling meaningful adoption patterns</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-details">
+          <div class="phase-detail active" id="stakeholder">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>SME and executive interviews across engineering, design, marketing, and leadership</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>15 stakeholders from technical and go-to-market functions</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>A strong organizational belief that GPU performance would be the primary driver of platform adoption</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="mental-model">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Depth interviews and Jobs-to-be-Done-style probing</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>18 ML engineers and data scientists across experience levels</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>ML developers evaluated platforms primarily on workflow integration and first-run experience</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="contextual">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Screen shares from dataset prep to deployment</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>8 ML engineers working on real projects</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Documentation and example code were the most referenced resources during development, far outweighing hardware specs</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="behavioral">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>COM-B behavioral model and thematic clustering</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>Analysis of 26 interviews and observation sessions</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Success in the first 48 hours was the most reliable predictor of long-term platform adoption</p>
+            </div>
+          </div>
+          
+          <div class="phase-detail" id="segmentation">
+            <div class="detail-method">
+              <h4>Method</h4>
+              <p>Persona tiering and insight frameworks</p>
+            </div>
+            <div class="detail-participants">
+              <h4>Participants</h4>
+              <p>Combined dataset from all research phases</p>
+            </div>
+            <div class="detail-outcome">
+              <h4>Key Finding</h4>
+              <p>Three distinct ML developer personas emerged with different needs: hobbyists, experimenters, and orchestrators</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-artifact alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-puzzle-piece section-icon"></i> Key Artifact</h2>
+        <p class="lead-text">The ML Platform Adoption Framework revealed the gap between organizational assumptions and ML developer realities.</p>
+      </div>
+      
+      <div class="artifact-showcase" data-aos="fade-up">
+        <div class="artifact-container large with-annotations">
+          <div class="artifact-header">
+            <h3>ML Platform Adoption Framework</h3>
+            <div class="artifact-actions">
+              <button class="btn-annotation active" data-view="standard"><i class="fas fa-eye"></i> Standard View</button>
+              <button class="btn-annotation" data-view="annotated"><i class="fas fa-comment-dots"></i> Annotated</button>
+            </div>
+          </div>
+          
+          <div class="artifact-views">
+            <div class="artifact-view active" id="standard-view">
+              <img src="artifacts/ml-adoption-framework.svg" alt="ML Platform Adoption Framework" class="artifact-img">
+            </div>
+            
+            <div class="artifact-view" id="annotated-view">
+              <div class="annotated-artifact">
+                <img src="artifacts/ml-adoption-framework.svg" alt="ML Platform Adoption Framework" class="artifact-img">
+                
+                <div class="annotation a1" style="top: 20%; left: 25%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Expected vs. Found</h4>
+                    <p>Key pattern: organizational expectations were misaligned with developer reality</p>
+                  </div>
+                </div>
+                
+                <div class="annotation a2" style="top: 45%; right: 20%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Trust Building</h4>
+                    <p>Documentation quality trumped benchmarks in building platform confidence</p>
+                  </div>
+                </div>
+                
+                <div class="annotation a3" style="bottom: 25%; left: 30%;">
+                  <div class="annotation-dot"></div>
+                  <div class="annotation-content">
+                    <h4>Support Ecosystem</h4>
+                    <p>Community and support were critical factors in platform evaluation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="artifact-explanation">
+            <div class="explanation-item">
+              <h4><i class="fas fa-lightbulb"></i> Purpose</h4>
+              <p>This framework juxtaposed organizational assumptions against user research findings to reveal the real drivers of ML platform adoption. It highlighted the gap between expected motivators (hardware specs) and actual motivators (workflow fit).</p>
+            </div>
+            
+            <div class="explanation-item">
+              <h4><i class="fas fa-chart-line"></i> Impact</h4>
+              <p>This artifact was instrumental in redirecting the product strategy from a hardware-centric approach to one focused on developer momentum and experience. It became a key decision-making tool across the organization.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-insights">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-brain section-icon"></i> Key Insights</h2>
+        <p class="lead-text">The research revealed four fundamental truths about ML platform adoption that challenged organizational assumptions.</p>
+      </div>
+      
+      <div class="insights-grid" data-aos="fade-up">
         <div class="insight-card">
-          <h4>Workflow Fit > Hardware Specs</h4>
+          <div class="insight-icon"><i class="fas fa-project-diagram"></i></div>
+          <h3>Workflow Fit > Hardware Specs</h3>
           <p>Developers didn't just want power — they wanted momentum. If setup, deployment, or scaling felt unpredictable, the power didn't matter.</p>
         </div>
         
         <div class="insight-card">
-          <h4>Documentation Was a Strategic Asset</h4>
+          <div class="insight-icon"><i class="fas fa-book"></i></div>
+          <h3>Documentation Was a Strategic Asset</h3>
           <p>Even highly skilled ML engineers relied on templates, walkthroughs, and example repos. Developer self-sufficiency beat raw capability.</p>
         </div>
         
         <div class="insight-card">
-          <h4>Support Ecosystem = Trust Layer</h4>
+          <div class="insight-icon"><i class="fas fa-users"></i></div>
+          <h3>Support Ecosystem = Trust Layer</h3>
           <p>Users prioritized access to responsive support, Slack communities, and peers over pricing or brand. Confidence was social and cognitive, not just technical.</p>
         </div>
         
         <div class="insight-card">
-          <h4>First Run Success Was the Real KPI</h4>
+          <div class="insight-icon"><i class="fas fa-rocket"></i></div>
+          <h3>First Run Success Was the Real KPI</h3>
           <p>Platforms weren't judged by marketing claims — they were judged by how fast a user could go from concept to working model without needing to file a support ticket.</p>
         </div>
       </div>
     </div>
-    
-    <div class="case-section">
-      <h3>Organizational Influence</h3>
-      
-      <div class="metrics">
-        <p><strong>Resource Reallocation:</strong> $1M+ redirected from GPU benchmarking to docs, onboarding tooling, and community support</p>
-        <p><strong>Performance Improvement:</strong> 35% increase in project starts, with first-run success up 40% after investment reallocation</p>
-        <p><strong>Strategic Impact:</strong> Narrative shift from "GPU performance" to "developer success velocity" embedded across product and marketing</p>
+  </section>
+  
+  <section class="case-impact alt-bg">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-award section-icon"></i> Organizational Influence</h2>
+        <p class="lead-text">This research fundamentally redirected the organization's AI/ML strategy and resource allocation.</p>
       </div>
       
-      <p>Strategic partnerships were formed with HuggingFace and DeepSeek based on integration and ecosystem, not hardware. This dramatically improved the adoption rate of the platform among AI/ML developers who were previously skeptical of a new entrant in the space.</p>
-    </div>
-    
-    <div class="case-section">
-      <h3>Reflection</h3>
-      <p>This project reinforced a core belief I bring to all infrastructure research: Even the best hardware fails if the developer can't get through day one. My work revealed that DigitalOcean's competitive edge in AI/ML wasn't compute — it was approachability.</p>
+      <div class="impact-metrics" data-aos="fade-up">
+        <div class="impact-metric">
+          <div class="metric-value">$1M+</div>
+          <div class="metric-label">Resource Reallocation</div>
+          <p>Redirected from GPU benchmarking to docs, onboarding tooling, and community support</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">35%</div>
+          <div class="metric-label">Project Starts Increase</div>
+          <p>Growth in ML project initiations after roadmap realignment</p>
+        </div>
+        
+        <div class="impact-metric">
+          <div class="metric-value">40%</div>
+          <div class="metric-label">First-Run Success</div>
+          <p>Improvement in successful first-run experiences after investment reallocation</p>
+        </div>
+      </div>
       
-      <p>And by exposing where adoption was stalling, we empowered the company to invest not in flashier specs, but in the scaffolding developers actually needed to move fast with confidence. This wasn't just a usability win. It was a strategic pivot that made the platform more credible, more usable, and more aligned with how ML is practiced — not just imagined.</p>
-    </div>
-    
-    <div style="text-align: center; margin: var(--space-xl) 0;">
-      <a href="index.html#case-studies" class="btn secondary">Back to Case Studies</a>
+      <div class="impact-quotes" data-aos="fade-up">
+        <div class="quote">
+          <div class="quote-mark"><i class="fas fa-quote-left"></i></div>
+          <div class="quote-content">
+            <p>This research completely changed our understanding of AI/ML platform adoption. We were building for benchmarks, but users wanted a platform that helps them succeed quickly.</p>
+            <div class="quote-attribution">— Head of Product, AI/ML Platform</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="additional-impact" data-aos="fade-up">
+        <h3>Strategic Partnerships</h3>
+        <p>The research findings directly influenced the formation of strategic partnerships with HuggingFace and DeepSeek based on integration and ecosystem benefits rather than hardware capabilities. This dramatically improved the adoption rate of the platform among AI/ML developers who were previously skeptical of a new entrant in the space.</p>
+      </div>
     </div>
   </section>
   
-  <footer>
-    <p>© 2025 Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+  <section class="case-reflection">
+    <div class="container">
+      <div class="section-intro" data-aos="fade-up">
+        <h2><i class="fas fa-lightbulb section-icon"></i> Reflection</h2>
+      </div>
+      
+      <div class="reflection-content" data-aos="fade-up">
+        <p>This project reinforced a core belief I bring to all infrastructure research: Even the best hardware fails if the developer can't get through day one. My work revealed that DigitalOcean's competitive edge in AI/ML wasn't compute — it was approachability.</p>
+        
+        <p>And by exposing where adoption was stalling, we empowered the company to invest not in flashier specs, but in the scaffolding developers actually needed to move fast with confidence. This wasn't just a usability win. It was a strategic pivot that made the platform more credible, more usable, and more aligned with how ML is practiced — not just imagined.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="case-navigation alt-bg">
+    <div class="container">
+      <h2 data-aos="fade-up">Explore More Case Studies</h2>
+      
+      <div class="case-nav-cards" data-aos="fade-up">
+        <a href="kubernetes-case.html" class="nav-card kubernetes">
+          <div class="card-content">
+            <h3>Kubernetes Copilot Strategy</h3>
+            <p>Strategic clarity in assessing AI augmentation</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <a href="atlas-case.html" class="nav-card atlas">
+          <div class="card-content">
+            <h3>Developer Experience Atlas</h3>
+            <p>Mapping friction across product boundaries</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        
+        <a href="simplicity-case.html" class="nav-card simplicity">
+          <div class="card-content">
+            <h3>The Expert's Need for Simplicity</h3>
+            <p>Challenging assumptions about PaaS adoption</p>
+            <span class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="case-nav-buttons" data-aos="fade-up">
+        <a href="index.html#case-studies" class="btn secondary"><i class="fas fa-th-large"></i> All Case Studies</a>
+        <a href="index.html#contact" class="btn primary"><i class="fas fa-envelope"></i> Get in Touch</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="current-year">2025</span> Shikha Sharma — Strategic Mixed-Methods Researcher</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#case-studies">Case Studies</a>
+        <a href="index.html#approach">Research Approach</a>
+        <a href="index.html#impact">Business Impact</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
   </footer>
   
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  
+  <!-- Import AOS library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/case-study.js"></script>
 </body>
 </html>
